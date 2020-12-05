@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family: "Work";
+    src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
+}
+.form-label{
+    font-family: "Roboto", "Work";
+    margin: 10px 0;
+}
+
+.form-group{
+    margin: 16px 14px;
+}
+
+.form-control{
+    border: 1px solid #bfbfbf;
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    padding: 8px;
+}

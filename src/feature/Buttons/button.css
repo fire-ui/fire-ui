@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "Noto";
+    src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Work";
+    src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
+}
 .btn{
     padding: 8px;
     border: 1px solid #999;
@@ -23,7 +31,7 @@
     background-color: #eb2421;
     color: #eef0f2;
 }
-.btn-sucess{
+.btn-success{
     background-color: #33ff0a;
     color: #eef0f2;
 }

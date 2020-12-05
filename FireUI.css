@@ -48,6 +48,8 @@ html{
 .green-text{color: var(--green-color) !important}
 .purple-text{color: var(--purple-color) !important}
 
+.dark-background{background-color: var(--dark-color) !important}
+.light-background{background-color: var(--light-color) !important}
 .black-background{background-color: var(--black-color) !important}
 .white-background{background-color: var(--white-color) !important}
 .blue-background{background-color: var(--blue-color) !important}
@@ -121,10 +123,27 @@ html{
 .btn-dark{background-color: var(--dark-color); color: var(--light-color);}
 .btn-light{background-color: var(--light-color); color: var(--dark-color);}
 .btn-danger{background-color: var(--red-color); color: var(--light-color);}
-.btn-sucess{background-color: var(--green-color);}
+.btn-success{background-color: var(--green-color);}
 .btn-warning{background-color: var(--yellow-color);}
-.btn-warning, .btn-sucess{color: var(--dark-color);}
+.btn-warning, .btn-success{color: var(--dark-color);}
 /* Button */
+/* Form */
+.form-label{
+    font-family: "Roboto", "Work";
+    margin: 10px 0;
+}
+
+.form-group{
+    margin: 16px 14px;
+}
+
+.form-control{
+    border: 1px solid #bfbfbf;
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    padding: 8px;
+}
+/* Form */
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
