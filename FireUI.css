@@ -69,6 +69,9 @@ html{
 [class*="col-"]{
     float: left;
 }
+.row{
+    overflow: hidden;
+}
 .col-1 , .col-ex-1{width: 8.33%;}
 .col-2 , .col-ex-2{width: 16.66%;}
 .col-3 , .col-ex-3{width: 25%;}
