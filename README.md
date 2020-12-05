@@ -1,7 +1,7 @@
 # Fire UI
 The framework contains everything that is frequently used on the frontend
 
-![Fire UI Logo](https://drive.google.com/uc?esprt=view&id=1QtABNQTv74c1kmW6qVbzhGXIwI2xmBPf)
+![Fire UI Logo](https://github.com/kimlimjustin/fire-ui/blob/master/docs/logo.jpg?raw=true)
 
 ## Table of Contents
 - [Project Roadmap](https://github.com/kimlimjustin/fire-ui/projects/1)
