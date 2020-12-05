@@ -1,7 +1,7 @@
 // Wait the DOM to be loaded
 document.addEventListener("DOMContentLoaded", () => {
-    // Set the website theme color according to the latest user preference saved in localStorage
-    if(localStorage.getItem('theme-color')){
+     // Set the website theme color according to the latest user preference saved in localStorage
+     if(localStorage.getItem('theme-color')){
         document.body.setAttribute('theme', localStorage.getItem('theme-color'))
     }
     // Searching all attributes with switch-theme attribute

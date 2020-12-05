@@ -2,11 +2,49 @@
     /* Colors */
     --dark-color: #101c29;
     --light-color: #eef0f2;
+    --black-color: #000;
+    --white-color: #fff;
+    --blue-color: #04d7de;
+    --red-color: #eb2421;
+    --yellow-color: #deff0a;
+    --green-color: #33ff0a;
+    --purple-color: #530aff;
 }
 html{
     -ms-overflow-style: auto;
+    margin: 0;
+    padding: 0;
 }
 
+/* Colors and theme*/
+[theme = "dark"], .dark-mode{
+    background-color: var(--dark-color) !important;
+    color: var(--white-color) !important;
+    transition: 0.5s;
+}
+[theme = "light"], .light-mode{
+    background-color: var(--light-color) !important;
+    color: var(--black-color) !important;
+    transition: 0.5s;
+}
+.black-text{color: var(--black-color)}
+.white-text{color: var(--white-color)}
+.blue-text{color: var(--blue-color)}
+.red-text{color: var(--red-color)}
+.yellow-text{color: var(--yellow-color)}
+.green-text{color: var(--green-color)}
+.purple-text{color: var(--purple-color)}
+
+.black-background{background-color: var(--black-color)}
+.white-background{background-color: var(--white-color)}
+.blue-background{background-color: var(--blue-color)}
+.red-background{background-color: var(--red-color)}
+.yellow-background{background-color: var(--yellow-color)}
+.green-background{background-color: var(--green-color)}
+.purple-background{background-color: var(--purple-color)}
+/* Colors and theme*/
+
+/* Grid System */
 .container{
     padding-right: 15px;
     padding-left: 15px;
@@ -28,6 +66,8 @@ html{
 .col-10, .col-ex-10 {width: 83.33%;}
 .col-11, .col-ex-11 {width: 91.66%;}
 .col-12, .col-ex-1 {width: 100%;}
+
+/* Grid System */
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
