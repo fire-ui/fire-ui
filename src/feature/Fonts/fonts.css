@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("./src/fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family: "Noto";
+    src: url("./src/fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Work";
+    src: url("./src/fonts/Work/WorkSans-Medium.ttf") format("truetype");
+}
+
+html{
+    font-family: "Roboto", "Noto", "Work";
+}
