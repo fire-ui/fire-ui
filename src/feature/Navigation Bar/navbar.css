@@ -1,0 +1,80 @@
+.topnav{
+    padding: 10px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.topnav-shadow{
+    box-shadow: 1px 1px 8px 2px rgba(0,0,0,.5);
+}
+.topnav .topnav-brand{
+    font-size: 1.6rem;
+    font-family: "Work";
+    float: left;
+    cursor: pointer;
+}
+.topnav .topnav-item{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Noto";
+    margin: 0.4rem 8px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.topnav .topnav-item:hover{
+    opacity: .8;
+}
+.topnav-right{
+    float: right;
+}
+.topnav-hamburger-menu{
+    float: right;
+    font-size: 1.3rem;
+    display: none;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-x: auto;
+    transition: 0.5s;
+    background-color: var(--light-color);
+    box-shadow: 2px 0px 2px 1px rgba(0,0,0,.5);
+}
+
+.sidenav-content{
+    font-family: "Roboto";
+    margin: 20px;
+}
+
+.sidenav-title{
+    font-size: 1.6rem;
+    font-family: "Work";
+    cursor: pointer;
+}
+
+.sidenav .sidenav-item{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Noto";
+    margin: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.sidenav .sidenav-item:hover{
+    opacity: .8;
+}
+
+.sidenav .sidenav-close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
