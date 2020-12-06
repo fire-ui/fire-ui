@@ -28,6 +28,21 @@ html{
     padding: 0;
     font-family: "Roboto", "Noto", "Work";
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(119, 118, 118);
+}
+/* Scrollbar */
 
 /* Colors and theme*/
 [theme = "dark"], .dark-mode{
