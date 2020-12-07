@@ -1,0 +1,33 @@
+.main-docs{
+    margin-top: 40px;
+}
+
+.main-page-title{
+    font-family: "Work";   
+    text-align: center;
+    font-size: 3.5rem;
+}
+.main-page-description{
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.main-page-logo{
+    text-align: center;
+}
+.main-page-logo img{
+    width: 150px;
+}
+
+.about-text{
+    font-size: 1.2rem;
+    font-family: "Noto";
+}
+.link{
+    color: inherit;
+    opacity: .8;
+    cursor: pointer;
+}
+.link:hover, .link:focus{
+    opacity: .4;
+}

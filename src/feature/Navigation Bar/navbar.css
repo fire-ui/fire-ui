@@ -21,6 +21,7 @@
     margin: 0.4rem 8px;
     transition: 0.5s;
     cursor: pointer;
+    color: inherit;
 }
 .topnav .topnav-item:hover{
     opacity: .8;
