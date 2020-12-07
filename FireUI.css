@@ -74,6 +74,15 @@ body{
 .yellow-background{background-color: var(--yellow-color) !important}
 .green-background{background-color: var(--green-color) !important}
 .purple-background{background-color: var(--purple-color) !important}
+
+[theme = "dark"] .theme-adjust, [theme = "light"] .theme-reverse{
+    background-color: #101c29 !important;
+    color: #eef0f2 !important
+}
+[theme = "light"] .theme-adjust, [theme = "dark"] .theme-reverse{
+    background-color: #eef0f2 !important;
+    color: #101c29 !important
+}
 /* Colors and theme*/
 
 /* Grid System */
@@ -246,6 +255,81 @@ body{
     cursor: pointer;
 }
 /* Navbar */
+/* Code */
+code{
+    overflow: auto;
+    font-family: "Work";
+    padding: 0.5rem;
+    border-radius: 1px solid #999;
+    line-height: 1.2rem;
+    border-radius: 5px;
+}
+pre{
+    padding: 0.5rem;
+    font-family: "Work";
+    tab-size: 4;
+    overflow: auto;
+    transition: .5s;
+    border-radius: 5px;
+}
+body[theme = "light"] pre, body[theme = "light"] code{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+body[theme = "dark"] pre, body[theme = "dark"] code{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+/* Code */
+/* Modal */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0,0, 0.4);
+}
+
+.modal-content{
+    overflow: auto;
+    margin: calc(10vh - 20px) auto;
+    position: relative;
+    animation: animatetop 0.4s;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #bfbfbf;
+    height: 80%;
+    width: 80%;
+}
+.modal-close-btn{
+    color: #aaa;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.modal-content-title{
+    font-size: 2rem;
+    border-bottom: 1px solid #999;
+    font-family: "Work";
+}
+.modal-content-text{
+    font-family: "Noto";
+    font-size: 1rem;
+    white-space: pre-line;
+    text-align: justify;
+}
+.modal-close-btn:hover, .modal-close-btn:focus{
+    color: #e6e6e6;
+}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+/* Modal */
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
