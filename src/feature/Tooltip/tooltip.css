@@ -1,0 +1,83 @@
+[theme = "dark"] {
+    background-color:#101c29 !important;
+    color: #fff !important;
+    transition: 0.5s;
+}
+[theme = "dark"] .tooltip-data {
+	color: #000!important;
+	background-color: #eef0f2 !important;
+}
+.tooltip {
+	display: inline-block;
+	position: relative;
+	text-decoration: underline;
+}
+.tooltip .tooltip-data {
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+  	width: 120px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #101c29;
+}
+.right {
+	top: -5px !important;
+  	left: 105% !important;
+}
+.top {
+	bottom: 100% !important;
+  	left: 50% !important;
+  	margin-left: -60px !important;
+}
+.left {
+	top: -5px !important;
+  	right: 105% !important;
+}
+.bottom {
+	width: 120px !important;
+	top: 100% !important;
+	left: 50% !important;
+	margin-left: -60px !important;
+}
+.tooltip:hover .tooltip-data {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in-out 0.5s;
+	-webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+    transform: translateX(10%);
+}
+.tooltip:hover .bottom {
+	-webkit-transform: translateY(10%) !important;
+    -moz-transform: translateY(10%) !important;
+    -ms-transform: translateY(10%) !important;
+    -o-transform: translateY(10%) !important;
+    transform: translateY(10%) !important;
+}
+.tooltip:hover .top {
+	-webkit-transform: translateY(-10%) !important;
+    -moz-transform: translateY(-10%) !important;
+    -ms-transform: translateY(-10%) !important;
+    -o-transform: translateY(-10%) !important;
+    transform: translateY(-10%) !important;
+}
+.tooltip:hover .right {
+	-webkit-transform: translateX(10%) !important;
+    -moz-transform: translateX(10%) !important;
+    -ms-transform: translateX(10%) !important;
+    -o-transform: translateX(10%) !important;
+    transform: translateX(10%) !important;
+}
+.tooltip:hover .left {
+	-webkit-transform: translateX(-10%) !important;
+    -moz-transform: translateX(-10%) !important;
+    -ms-transform: translateX(-10%) !important;
+    -o-transform: translateX(-10%) !important;
+    transform: translateX(-10%) !important;
+}
