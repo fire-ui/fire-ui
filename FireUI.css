@@ -246,6 +246,32 @@ body{
     cursor: pointer;
 }
 /* Navbar */
+/* Code */
+code{
+    overflow: auto;
+    font-family: "Work";
+    padding: 0.5rem;
+    border-radius: 1px solid #999;
+    line-height: 1.2rem;
+    border-radius: 5px;
+}
+pre{
+    padding: 0.5rem;
+    font-family: "Work";
+    tab-size: 4;
+    overflow: auto;
+    transition: .5s;
+    border-radius: 5px;
+}
+body[theme = "light"] pre, body[theme = "light"] code{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+body[theme = "dark"] pre, body[theme = "dark"] code{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+/* Code */
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
