@@ -51,4 +51,13 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById(btn.dataset.modal).style.display = "none";
         })
     })
+    document.querySelectorAll(".fixed-sidenav-dropdown-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            if(document.getElementById(btn.dataset.dropdown).style.display === "block"){
+                document.getElementById(btn.dataset.dropdown).style.display = "none"
+            }else{
+                document.getElementById(btn.dataset.dropdown).style.display = "block";
+            }
+        })
+    })
 })
