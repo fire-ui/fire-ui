@@ -276,6 +276,7 @@ body{
     text-align: left;
     cursor: pointer;
     outline: none;
+    color: inherit;
 }
 
 .fixed-sidenav-item:hover{
@@ -311,8 +312,8 @@ body{
 code{
     overflow: auto;
     font-family: "Work";
-    padding: 0.5rem;
-    border-radius: 1px solid #999;
+    padding: 0 0.5rem;
+    border: 1px solid #999;
     line-height: 1.2rem;
     border-radius: 5px;
 }
@@ -506,9 +507,12 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
         display: none;
     }
     .fixed-sidenav{
+        max-height: 30vh;
+        overflow: auto;
         height: auto;
         width: 100%;
         position: relative;
+        padding: 0;
     }
     .main-page{
         margin-left: 0;
