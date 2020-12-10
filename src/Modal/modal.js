@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.addEventListener("click", () => {
             let modal = document.getElementById(btn.dataset.modal);
             window.onclick = e =>  {if(e.target == modal) modal.style.display = "none"}
-            if(modal.style.display == "block"){
+            if(window.getComputedStyle(modal).getPropertyValue('display') === "block"){
                 modal.style.display = "none";
             }else modal.style.display = "block";
         })

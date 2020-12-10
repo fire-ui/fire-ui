@@ -292,6 +292,10 @@ body{
     padding-left: 8px;
 }
 
+.fixed-sidenav-dropdown-active{
+    display: block;
+}
+
 .dropdown-icon::before{
     content: "▼";
     float: right;

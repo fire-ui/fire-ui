@@ -126,6 +126,10 @@
 .main-page .container{
     width: auto;
 }
+.fixed-sidenav-dropdown-active{
+    display: block;
+}
+
 
 @media only screen and (max-width: 768px){
     .fixed-sidenav{

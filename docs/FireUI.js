@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".topnav-hamburger-menu").forEach(menu => {
         document.getElementById(menu.dataset.target).classList.add('topnav-list')
         menu.addEventListener("click", () => {
-            if(document.getElementById(menu.dataset.target).style.display === "block"){
+            if(window.getComputedStyle(document.getElementById(btn.dataset.target)).getPropertyValue('display') === "block"){
                 menu.innerHTML = "&#x2630;";
                 document.getElementById(menu.dataset.target).style.display = "none";
             }else{
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.addEventListener("click", () => {
             let modal = document.getElementById(btn.dataset.modal);
             window.onclick = e =>  {if(e.target == modal) modal.style.display = "none"}
-            if(modal.style.display == "block"){
+            if(window.getComputedStyle(modal).getPropertyValue('display') === "block"){
                 modal.style.display = "none";
             }else modal.style.display = "block";
         })
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     document.querySelectorAll(".fixed-sidenav-dropdown-btn").forEach(btn => {
         btn.addEventListener("click", () => {
-            if(document.getElementById(btn.dataset.dropdown).style.display === "block"){
+            if(window.getComputedStyle(document.getElementById(btn.dataset.dropdown)).getPropertyValue('display') === "block"){
                 document.getElementById(btn.dataset.dropdown).style.display = "none"
             }else{
                 document.getElementById(btn.dataset.dropdown).style.display = "block";
