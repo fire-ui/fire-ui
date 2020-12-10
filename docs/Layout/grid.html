@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started ~ Fire UI</title>
+    <meta name="title" content="Grid ~ Fire UI">
+    <meta name="description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain
+     everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kimlim.net/fire-ui/">
+    <meta property="og:title" content="Grid ~ Fire UI">
+    <meta property="og:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
+     is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:image" content="https://kimlim.net/fire-ui/logo.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kimlim.net/fire-ui/">
+    <meta property="twitter:title" content="Grid ~ Fire UI">
+    <meta property="twitter:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
+    is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="twitter:image" content="https://kimlim.net/fire-ui/">
+    <link rel="stylesheet" type="text/css" href="../FireUI.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../FireUI.js"></script>
+    <link rel="shortcut icon" href="../logo.jpg" type="image/x-icon">
+</head>
+<body theme="light">
+    <div class="fixed-sidenav theme-reverse">
+        <a class="fixed-sidenav-item sidenav-title" href="../index.html">Fire UI</a>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown = "gettingStarted">Getting Started <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="gettingStarted">
+            <a class="fixed-sidenav-item" href="../getting-started/introduction.html">Introduction</a>
+            <a class="fixed-sidenav-item" href="../getting-started/download.html">Download</a>
+            <a class="fixed-sidenav-item" href="../getting-started/customize.html">Customize</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="layout">
+            <a href="./container.html" class="fixed-sidenav-item">Container</a>
+            <a href="./grid.html" class="fixed-sidenav-item">Grid</a>
+        </div>
+    </div>
+    <div class="main-page">
+        <h1>Grid system</h1>
+        <p>Start using our powerful, mobile-first, twelve column grid system</p>
+        <div class="division">
+            <h2>Example</h2>
+            <div class="row">
+                <div class="col-ex-3 ">One of four columns</div>
+                <div class="col-ex-3 ">One of four columns</div>
+                <div class="col-ex-3 ">One of four columns</div>
+                <div class="col-ex-3 ">One of four columns</div>
+            </div>
+            <pre>
+&#x3C;div class=&#x22;container&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-ex-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-ex-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-ex-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-ex-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>The above example creates four equal-width columns accross all devices and viewport using our predefined grid classes. Those columns
+            are centered in the page with the parent <a href="./container.html"><code>container</code></a> class</p>
+        </div>
+        <div class="division">
+            <h2>Our Grid System</h2>
+            <p>Fire UI's grid system comes with <code>row</code>, <code>col-</code> and <code>col-ex-</code> classes. This is how it's work:</p>
+            <ul>
+                <li><b>A row contains of 12 columns.</b> These columns allowing you to create different combinations of elements that span any number of columns. 
+                Column classes indicate the number of template columns to span (e.g., <code>col-3</code> spans 3 columns)</li>
+                <li><b><code>col-</code> class.</b> This column class will automatically resize it size when it meets smaller screen. For example, <code>col-3</code> class
+                which is supposed to span 3 columns, will span 6 column(half of the width) when screen width is lower than 768 px and will take span 12 columns
+                when screen width is lower than 600px. Example:
+                    <div class="row">
+                        <div class="col-3 ">One of four columns</div>
+                        <div class="col-3 ">One of four columns</div>
+                        <div class="col-3 ">One of four columns</div>
+                        <div class="col-3 ">One of four columns</div>
+                    </div>
+                    <pre>
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-3&#x22;&#x3E;One of four columns&#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+                    <p>To view this differents, open developer console and try resize your screen width </p>
+                </li>
+                <li><b><code>col-ex-</code> class.</b> Unlike <code>col-</code> class which automatically resize, this <code>col-ex</code> will not increase number of 
+                    column to span. For instance, <code>col-4</code> will span 4 columns regardless screen width.
+
+                </li>
+            </ul>
+        </div>
+        <div class="division">
+            <h2>Example of combinations</h2>
+            <div class="row">
+                <div class="col-ex-8">col-ex-8</div>
+                <div class="col-ex-4">col-ex-4</div>
+            </div>
+            <div class="row">
+                <div class="col-ex-4">col-ex-4</div>
+                <div class="col-ex-4">col-ex-6</div>
+                <div class="col-ex-4">col-ex-4</div>
+            </div>
+            <div class="row">
+                <div class="col-3">col-3</div>
+                <div class="col-3">col-3</div>
+                <div class="col-3">col-3</div>
+                <div class="col-3">col-3</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

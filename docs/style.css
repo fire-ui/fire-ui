@@ -39,3 +39,27 @@
 .division{
     margin: 3rem 0;
 }
+
+.col-3, .col-ex-3{
+    width: calc(25% - 1rem);
+    padding: 0.4rem;
+    border: 1px solid rgba(39, 41, 43, 0.1);
+}
+
+.col-ex-8{
+    width: calc(66.66% - 1rem);
+    padding: 0.4rem;
+    border: 1px solid rgba(39, 41, 43, 0.1);
+}
+
+.col-ex-4{
+    width: calc(33.33% - 1rem);
+    padding: 0.4rem;
+    border: 1px solid rgba(39, 41, 43, 0.1);
+}
+
+@media only screen and (max-width: 768px){
+    .col-3{
+        width: calc(50% - 1rem);
+    }
+}

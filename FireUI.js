@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".topnav-hamburger-menu").forEach(menu => {
         document.getElementById(menu.dataset.target).classList.add('topnav-list')
         menu.addEventListener("click", () => {
-            if(window.getComputedStyle(document.getElementById(btn.dataset.target)).getPropertyValue('display') === "block"){
+            if(window.getComputedStyle(document.getElementById(menu.dataset.target)).getPropertyValue('display') === "block"){
                 menu.innerHTML = "&#x2630;";
                 document.getElementById(menu.dataset.target).style.display = "none";
             }else{
