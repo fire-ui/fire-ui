@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form ~ Fire UI</title>
+    <meta name="title" content="Form ~ Fire UI">
+    <meta name="description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain
+     everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kimlim.net/fire-ui/">
+    <meta property="og:title" content="Form ~ Fire UI">
+    <meta property="og:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
+     is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:image" content="https://kimlim.net/fire-ui/logo.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kimlim.net/fire-ui/">
+    <meta property="twitter:title" content="Form ~ Fire UI">
+    <meta property="twitter:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
+    is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="twitter:image" content="https://kimlim.net/fire-ui/">
+    <link rel="stylesheet" type="text/css" href="../FireUI.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../FireUI.js"></script>
+    <link rel="shortcut icon" href="../logo.jpg" type="image/x-icon">
+</head>
+<body theme="light">
+    <div class="fixed-sidenav theme-reverse">
+        <a class="fixed-sidenav-item sidenav-title" href="../index.html">Fire UI</a>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown = "gettingStarted">Getting Started <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="gettingStarted">
+            <a class="fixed-sidenav-item" href="../getting-started/introduction.html">Introduction</a>
+            <a class="fixed-sidenav-item" href="../getting-started/download.html">Download</a>
+            <a class="fixed-sidenav-item" href="../getting-started/customize.html">Customize</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="layout">
+            <a href="../Layout/container.html" class="fixed-sidenav-item">Container</a>
+            <a href="../Layout/grid.html" class="fixed-sidenav-item">Grid</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="component">Components <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="component">
+            <a href="../components/box.html" class="fixed-sidenav-item">Box</a>
+            <a href="../components/buttons.html" class="fixed-sidenav-item">Buttons</a>
+            <a href="../components/code.html" class="fixed-sidenav-item">Code</a>
+            <a href="../components/color_theme.html" class="fixed-sidenav-item">Color and theme</a>
+            <a href="../components/form.html" class="fixed-sidenav-item">Form</a>
+        </div>
+    </div>
+    <div class="main-page">
+        <h1>Form</h1>
+        <div class="division">
+            <h2>Form Control</h2>
+            <p>Give your input and textarea custom styles, styling and more</p>
+            <h3>Example</h3>
+            <input type="text" class="form-control" placeholder="Input text using form-control class">
+            <textarea class="form-control" placeholder="Textarea using form-control class"></textarea>
+            <pre>
+&#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;Input text using form-control class&#x22;&#x3E;
+&#x3C;textarea class=&#x22;form-control&#x22; placeholder=&#x22;Textarea using form-control class&#x22;&#x3E;&#x3C;/textarea&#x3E;</pre>
+        </div>
+        <div class="division">
+            <h2>Form Label</h2>
+            <p>Give your input a styled input</p>
+            <h3>Example</h3>
+            <div class="box">
+                <p class="form-label">Username:</p>
+                <input type="text" class="form-control">
+            </div>
+            <pre>
+&#x3C;p class=&#x22;form-label&#x22;&#x3E;Username:&#x3C;/p&#x3E;
+&#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22;&#x3E;</pre>
+        </div>
+        <div class="division">
+            <h2>Form Group</h2>
+            <p>Grouping your inputs into <code>form-group</code></p>
+            <h3>Example</h3>
+            <div class="box theme-reverse">
+                <div class="form-group">
+                    <p class="form-label">Email address:</p>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <p class="form-label">Username:</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <p class="form-label">Password:</p>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn form-control theme-adjust">
+                </div>
+            </div>
+            <pre>
+&#x3C;div class=&#x22;box theme-reverse&#x22;&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;p class=&#x22;form-label&#x22;&#x3E;Email address:&#x3C;/p&#x3E;
+        &#x3C;input type=&#x22;email&#x22; class=&#x22;form-control&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;p class=&#x22;form-label&#x22;&#x3E;Username:&#x3C;/p&#x3E;
+        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;p class=&#x22;form-label&#x22;&#x3E;Password:&#x3C;/p&#x3E;
+        &#x3C;input type=&#x22;password&#x22; class=&#x22;form-control&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;input type=&#x22;submit&#x22; class=&#x22;btn form-control theme-adjust&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+            </pre>
+        </div>
+        <div class="division">
+            <h2>Form Grid</h2>
+            <p>You can combine form with Fire UI <a href="../Layout/grid.html" class="link">Grid System</a> too!</p>
+            <h3>Example</h3>
+            <div class="box theme-reverse">
+                <div class="row">
+                    <div class="col-ex-7"><input type="text" class="form-control" placeholder="First name"></div>
+                    <div class="col-ex-5"><input type="text" class="form-control" placeholder="Last name"></div>
+                </div>
+            </div>
+            <pre>
+&#x3C;div class=&#x22;box theme-reverse&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-ex-7&#x22;&#x3E;&#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;First name&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-ex-5&#x22;&#x3E;&#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;Last name&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
