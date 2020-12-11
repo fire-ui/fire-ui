@@ -3,18 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getting Started ~ Fire UI</title>
-    <meta name="title" content="Container ~ Fire UI">
+    <meta name="title" content="Grid ~ Fire UI">
     <meta name="description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain
      everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
      <meta property="og:type" content="website">
     <meta property="og:url" content="https://kimlim.net/fire-ui/">
-    <meta property="og:title" content="Container ~ Fire UI">
+    <meta property="og:title" content="Grid ~ Fire UI">
     <meta property="og:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
      is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
     <meta property="og:image" content="https://kimlim.net/fire-ui/logo.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://kimlim.net/fire-ui/">
-    <meta property="twitter:title" content="Container ~ Fire UI">
+    <meta property="twitter:title" content="Grid ~ Fire UI">
     <meta property="twitter:description" content="Quickly design your website with Hurl UI, an open-source project aimed to contain everything that
     is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
     <meta property="twitter:image" content="https://kimlim.net/fire-ui/">
@@ -45,35 +45,31 @@
         </div>
     </div>
     <div class="main-page">
-        <h1>Container</h1>
-        <p>Container is fundamental class of Fire UI, making your website to be mobile friendly. Our <code>.container</code> class is a responsive, fixed-width container.
-        To use it, simply add <code>container</code> into your classlist</p>
-        <pre>
-&#x3C;div class=&#x22;container&#x22;&#x3E;
-    &#x3C;!-- Your content here --&#x3E;
-&#x3C;/div&#x3E;</pre>
+        <h1>Buttons</h1>
+        <p>Fire UI buttons are simple. Simply use <code>btn</code> class to your button</p>
         <div class="division">
-            <h2>Starter template with container class</h2>
+            <h2>Button colors</h2>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-dark">Dark</button>
+            <button class="btn btn-light">Light</button>
             <pre>
-&#x3C;!-- Fire UI has not released yet --&#x3E;                
-&#x3C;!DOCTYPE html&#x3E;
-&#x3C;html lang=&#x22;en&#x22;&#x3E;
-&#x3C;head&#x3E;
-    &#x3C;!-- Required meta tags --&#x3E;
-    &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;
-    &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;
-    &#x3C;!-- Hurl UI CSS --&#x3E;
-    &#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;&#x22;&#x3E;
-    &#x3C;!-- Hurl UI Javascript --&#x3E;
-    &#x3C;script src=&#x22;&#x22;&#x3E;&#x3C;/script&#x3E;
-    &#x3C;title&#x3E;Hello, world!&#x3C;/title&#x3E;
-&#x3C;/head&#x3E;
-&#x3C;body&#x3E;
-    &#x3C;div class=&#x22;container&#x22;&#x3E;
-        &#x3C;h1&#x3E;Hello, world!&#x3C;/h1&#x3E;
-    &#x3C;/div&#x3E;
-&#x3C;/body&#x3E;
-&#x3C;/html&#x3E;</pre>
+&#x3C;button class=&#x22;btn btn-danger&#x22;&#x3E;Danger&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-success&#x22;&#x3E;Success&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-warning&#x22;&#x3E;Warning&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-dark&#x22;&#x3E;Dark&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-light&#x22;&#x3E;Light&#x3C;/button&#x3E;</pre>
+        </div>
+        <div class="division">
+            <h2>Combination</h2>
+            <p>You can combine button with <a href="./color_theme.html"><code>colors</code></a> feature</p>
+            <button class="btn theme-reverse">btn theme-reverse</button>
+            <button class="btn theme-adjust">btn theme-adjust</button>
+            <pre>
+&#x3C;button class=&#x22;btn theme-reverse&#x22;&#x3E;btn theme-reverse&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn theme-adjust&#x22;&#x3E;btn theme-adjust&#x3C;/button&#x3E;
+            </pre>
         </div>
     </div>
 </body>

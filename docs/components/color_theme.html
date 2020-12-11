@@ -45,64 +45,47 @@
         </div>
     </div>
     <div class="main-page">
-        <h1>Code</h1>
-        <p>To use only Fire UI code feature, copy and paste the stylesheet link into your <code>head</code> to load Fire UI code CSS.</p>
-        <pre>
-&#x3C;!-- Fire UI has not released yet --&#x3E;
-&#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;&#x22;&#x3E;</pre>
+        <h1>Color and theme</h1>
+        <p>Fire UI provides some basic colors and Fire UI supports night theme</p>
         <div class="division">
-            <h2>How to use</h2>
-            <p>To display inline code, simply use <code>&#x3C;code&#x3E;</code> tag element in your HTML. Use <code>&#x3C;pre&#x3E;</code> tag element in your HTML 
-            for multiline code.</p>
-            <p><b>NOTE</b> that you must remember to replace <code><</code> and <code>></code> with <code>&#x26;#x3C;</code> and <code>&#x26;#x3E;</code> or 
-            it will rendered as HTML</p>
+            <h2>Theme</h2>
+            <p>Fire UI has light theme and dark theme. To use this inside your website, add <code>theme</code> attribute to <code>body</code> tag, with value light or dark. 
+                For example, <code>&#x3C;body theme="dark"&#x3E;</code> will make your website in dark mode. In contrast, <code>&#x3C;body theme="dark"&#x3E;</code> will make
+                your website in light mode. In case of switching theme, add <code>switch-theme</code> attribute into buttons.</p>
+            <h3>Example:</h3>
+            <p>You can switch theme of this website by clicking <u switch-theme>here</u> and <button switch-theme class="theme-reverse btn">Here</button></p>
+            <pre>&#x3C;p&#x3E;You can switch theme of this website by clicking &#x3C;u switch-theme&#x3E;here&#x3C;/u&#x3E; and &#x3C;button switch-theme class=&#x22;theme-reverse btn&#x22;&#x3E;Here&#x3C;/button&#x3E;&#x3C;/p&#x3E;</pre>
         </div>
         <div class="division">
-            <h2>Example</h2>
-            <div class="division">
-                <h3><code>Code</code> tag</h3>
-                <code>&#x3C;script&#x3E;alert("Hello World");&#x3C;/script&#x3E;</code>
-                <pre>&#x3C;code&#x3E;&#x26;#x3C;script&#x26;#x3E;alert("Hello World");&#x26;#x3C;/script&#x26;#x3E;&#x3C;/code&#x3E;</pre>
-            </div>
-            <h3><code>Pre</code> tag</h3>
-<pre>
-&#x3C;!-- Fire UI has not released yet --&#x3E;                
-&#x3C;!DOCTYPE html&#x3E;
-&#x3C;html lang=&#x22;en&#x22;&#x3E;
-&#x3C;head&#x3E;
-    &#x3C;!-- Required meta tags --&#x3E;
-    &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;
-    &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;
-    &#x3C;!-- Hurl UI CSS --&#x3E;
-    &#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;&#x22;&#x3E;
-    &#x3C;!-- Hurl UI Javascript --&#x3E;
-    &#x3C;script src=&#x22;&#x22;&#x3E;&#x3C;/script&#x3E;
-    &#x3C;title&#x3E;Hello, world!&#x3C;/title&#x3E;
-&#x3C;/head&#x3E;
-&#x3C;body&#x3E;
-    &#x3C;h1&#x3E;Hello, world!&#x3C;/h1&#x3E;
-&#x3C;/body&#x3E;
-&#x3C;/html&#x3E;</pre>
-<pre>
-&#x3C;pre&#x3E;
-&#x26;#x3C;!-- Fire UI has not released yet --&#x26;#x3E;                
-&#x26;#x3C;!DOCTYPE html&#x26;#x3E;
-&#x26;#x3C;html lang=&#x26;#x22;en&#x26;#x22;&#x26;#x3E;
-&#x26;#x3C;head&#x26;#x3E;
-    &#x26;#x3C;!-- Required meta tags --&#x26;#x3E;
-    &#x26;#x3C;meta charset=&#x26;#x22;utf-8&#x26;#x22;&#x26;#x3E;
-    &#x26;#x3C;meta name=&#x26;#x22;viewport&#x26;#x22; content=&#x26;#x22;width=device-width, initial-scale=1&#x26;#x22;&#x26;#x3E;
-    &#x26;#x3C;!-- Hurl UI CSS --&#x26;#x3E;
-    &#x26;#x3C;link rel=&#x26;#x22;stylesheet&#x26;#x22; type=&#x26;#x22;text/css&#x26;#x22; href=&#x26;#x22;&#x26;#x22;&#x26;#x3E;
-    &#x26;#x3C;!-- Hurl UI Javascript --&#x26;#x3E;
-    &#x26;#x3C;script src=&#x26;#x22;&#x26;#x22;&#x26;#x3E;&#x26;#x3C;/script&#x26;#x3E;
-    &#x26;#x3C;title&#x26;#x3E;Hello, world!&#x26;#x3C;/title&#x26;#x3E;
-&#x26;#x3C;/head&#x26;#x3E;
-&#x26;#x3C;body&#x26;#x3E;
-    &#x26;#x3C;h1&#x26;#x3E;Hello, world!&#x26;#x3C;/h1&#x26;#x3E;
-&#x26;#x3C;/body&#x26;#x3E;
-&#x26;#x3C;/html&#x26;#x3E;
-&#x3C;/pre&#x3E;</pre>
+            <h2>Colors</h2>
+            <p>Note that you can customize colors. For more information, read <a href="../getting-started/customize.html" class="link">Customize</a></p>
+            <h4>Text colors class:</h4>
+            <ul>
+                <li class="black-text">black-text</li>
+                <li class="white-text">white-text</li>
+                <li class="blue-text">blue-text</li>
+                <li class="red-text">red-text</li>
+                <li class="yellow-text">yellow-text</li>
+                <li class="green-text">green-text</li>
+                <li class="purple-text">purple-text</li>
+            </ul>
+            <h4>Special class:</h4>
+            <ul>
+                <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u switch-theme>here</u> to change theme)</li>
+                <li class="theme-reverse">theme-reverse (This class background color and color will reverse from page theme, click <u switch-theme>here</u> to change theme)</li>
+            </ul>
+            <h4>Background color class</h4>
+            <ul>
+                <li><div class="box dark-background white-text">dark-background</div></li>
+                <li><div class="box light-background black-text">light-background</div></li>
+                <li><div class="box black-background white-text">black-background</div></li>
+                <li><div class="box white-background black-text">white-background</div></li>
+                <li><div class="box blue-background">blue-background</div></li>
+                <li><div class="box red-background">red-background</div></li>
+                <li><div class="box yellow-background">yellow-background</div></li>
+                <li><div class="box green-background">green-background</div></li>
+                <li><div class="box purple-background">purple-background</div></li>
+            </ul>
         </div>
     </div>
 </body>
