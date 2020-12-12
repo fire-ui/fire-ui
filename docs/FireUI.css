@@ -203,7 +203,6 @@ body{
     transition: 0.5s;
     cursor: pointer;
     color: inherit;
-    width: -webkit-fill-available;
 }
 .topnav .topnav-item:hover{
     opacity: .8;
@@ -523,6 +522,9 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     }
     .main-page{
         margin-left: 0;
+    }
+    .topnav .topnav-item{
+        width: -webkit-fill-available;
     }
     /* Navbar */
 }
