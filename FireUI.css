@@ -1,14 +1,14 @@
 @font-face{
     font-family: "Roboto";
-    src: url("./src/fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+    src: url("./fonts/Roboto/Roboto-Regular.ttf") format('truetype');
 }
 @font-face{
     font-family: "Noto";
-    src: url("./src/fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+    src: url("./fonts/Noto/NotoSans-Regular.ttf") format("truetype");
 }
 @font-face{
     font-family: "Work";
-    src: url("./src/fonts/Work/WorkSans-Medium.ttf") format("truetype");
+    src: url("./fonts/Work/WorkSans-Medium.ttf") format("truetype");
 }
 :root{
     /* Colors */
@@ -29,7 +29,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto", "Noto", "Work";
+    scroll-behavior: smooth;
 }
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -174,6 +176,7 @@ body{
     padding: 8px;
 }
 /* Form */
+
 /* Navbar */
 .topnav{
     padding: 10px;
@@ -186,6 +189,7 @@ body{
 .topnav .topnav-brand{
     font-size: 1.6rem;
     font-family: "Work";
+    margin: 0 20px 0 0;
     float: left;
     cursor: pointer;
 }
@@ -199,6 +203,7 @@ body{
     transition: 0.5s;
     cursor: pointer;
     color: inherit;
+    width: -webkit-fill-available;
 }
 .topnav .topnav-item:hover{
     opacity: .8;
@@ -249,13 +254,6 @@ body{
     opacity: .8;
 }
 
-.sidenav .sidenav-close-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 36px;
-    cursor: pointer;
-}
 .fixed-sidenav{
     height: 100%;
     width: 200px;
@@ -308,12 +306,19 @@ body{
     width: auto;
 }
 
+.sidenav .sidenav-close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
 /* Navbar */
 /* Code */
 code{
     overflow: auto;
     font-family: "Work";
-    padding: 0.5rem;
+    padding: 0 0.5rem;
     border: 1px solid #999;
     line-height: 1.2rem;
     border-radius: 5px;
@@ -506,6 +511,7 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     }
     .topnav-list{
         display: none;
+        width: 100%;
     }
     .fixed-sidenav{
         max-height: 30vh;

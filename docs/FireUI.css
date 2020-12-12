@@ -189,6 +189,7 @@ body{
 .topnav .topnav-brand{
     font-size: 1.6rem;
     font-family: "Work";
+    margin: 0 20px 0 0;
     float: left;
     cursor: pointer;
 }
@@ -202,6 +203,7 @@ body{
     transition: 0.5s;
     cursor: pointer;
     color: inherit;
+    width: -webkit-fill-available;
 }
 .topnav .topnav-item:hover{
     opacity: .8;
@@ -509,6 +511,7 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     }
     .topnav-list{
         display: none;
+        width: 100%;
     }
     .fixed-sidenav{
         max-height: 30vh;

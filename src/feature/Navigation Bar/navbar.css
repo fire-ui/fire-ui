@@ -11,6 +11,7 @@
     font-family: "Work";
     float: left;
     cursor: pointer;
+    margin: 0 20px 0 0;
 }
 .topnav .topnav-item{
     float: left;
@@ -22,6 +23,7 @@
     transition: 0.5s;
     cursor: pointer;
     color: inherit;
+    width: -webkit-fill-available;
 }
 .topnav .topnav-item:hover{
     opacity: .8;
@@ -104,6 +106,7 @@
     cursor: pointer;
     color: inherit;
     outline: none;
+    width: 100%;
 }
 
 .fixed-sidenav-item:hover{
@@ -139,6 +142,10 @@
         width: 100%;
         position: relative;
         padding: 0;
+    }
+    .topnav-list{
+        display: none;
+        width: 100%;
     }
     .main-page{
         margin-left: 0;
