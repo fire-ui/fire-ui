@@ -527,6 +527,67 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     /* Navbar */
 }
 
+/* Table */
+* {
+  font-family: roboto; 
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width : 90%;
+}
+
+.content-table thead tr {
+  background-color: #ff66ff;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.even-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.odd-table tbody tr:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 5px solid #ff66ff;
+}
+
+.content-table tbody tr.active-row {
+  background-color: #f3f3f3;
+}
+
+.hover-table tbody tr:hover{
+ background-color : #d6d6c2;
+ color : black;
+}
+
+.hover-zoom tr:hover{
+	background-color: #d6d6c2;
+	transform: scale(1.05);
+	transition: transform 300ms ease-in;
+
+}
+/* Table */
+
 @media only screen and (min-width: 992px){
     .container{
         width: 900px;
