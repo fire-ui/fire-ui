@@ -505,9 +505,6 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     .topnav-hamburger-menu{
         display: block;
     }
-    .topnav-item{
-        width: 100vw;
-    }
     .topnav-list{
         display: none;
         width: 100%;
@@ -523,7 +520,7 @@ body[theme = "dark"] pre, body[theme = "dark"] code{
     .main-page{
         margin-left: 0;
     }
-    .topnav .topnav-item{
+    .topnav-list .topnav-item{
         width: -webkit-fill-available;
     }
     /* Navbar */

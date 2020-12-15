@@ -149,7 +149,7 @@
     .main-page{
         margin-left: 0;
     }
-    .topnav .topnav-item{
+    .topnav-list .topnav-item{
         width: -webkit-fill-available;
     }
 }
