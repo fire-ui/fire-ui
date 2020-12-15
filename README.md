@@ -4,7 +4,7 @@
 [![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
 
 
-![Fire UI Logo](https://github.com/fire-ui/fire-ui/blob/master/docs/logo.jpg?raw=true)
+![Fire UI Logo](https://avatars0.githubusercontent.com/u/76034545)
 
 ## Table of Contents
 - [Quick start](#quick-start)
