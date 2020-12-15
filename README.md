@@ -9,7 +9,7 @@
 ## Table of Contents
 - [Quick start](#quick-start)
 - [Project Roadmap](https://github.com/fire-ui/fire-ui/projects/1)
-- [Documentation Page](https://kimlim.net/fire-ui/)
+- [Documentation Page](https://fire-ui.github.io/)
 - [Bug and feature request](#bug-and-feature-requests)
 - [Code of conducts](#code-of-conduct)
 - [Contributing](#contributing-guidelines)
