@@ -10,7 +10,7 @@
 .tooltip {
 	display: inline-block;
 	position: relative;
-	text-decoration: underline;
+	text-decoration: underline dotted;
 }
 .tooltip .tooltip-data {
 	position: absolute;
