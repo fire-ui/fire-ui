@@ -552,6 +552,38 @@ tr, th{
     display: block;
 }
 /* Tabs */
+/* Accordion */
+.accordion{
+    cursor: pointer;
+    padding: 18px;
+    width: -webkit-fill-available;
+    outline: none;
+    border: none;
+    text-align: left;
+    transition: 0.4s;
+    font-size: 1.2rem;
+}
+.accordion::after{
+    content: "+";
+    float: right;
+    font-size: 1.2rem;
+}
+.accordion-active::after{
+    content: "-";
+    float: right;
+    font-size: 1.2rem;
+}
+.accordion:hover{
+    opacity: .7;
+}
+.accordion-panel{
+    max-height: 0;
+    overflow: auto;
+    padding: 0 14px;
+    transition: max-height 0.3s ease-out;
+    border: 1px solid #bfbfbf;
+}
+/* Accordion */
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
