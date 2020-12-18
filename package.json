@@ -1,6 +1,6 @@
 {
-  "name": "fire-ui",
-  "version": "0.1.0-alpha",
+  "name": "@fire-ui/fire-ui",
+  "version": "0.1.0",
   "description": "The framework contains everything that is frequently used on the frontend",
   "main": "FireUI.js",
   "scripts": {

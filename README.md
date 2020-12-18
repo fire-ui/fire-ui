@@ -2,6 +2,7 @@
 > The framework contains everything that is frequently used on the frontend.
 
 [![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
+[![NPM](https://nodei.co/npm/@fire-ui/fire-ui.png?mini=true)](https://npmjs.org/package/@fire-ui/fire-ui)
 
 
 ![Fire UI Logo](https://avatars0.githubusercontent.com/u/76034545)
@@ -21,7 +22,8 @@ There are several quick start options available:
 - [Download the latest release](https://github.com/fire-ui/fire-ui/releases)
 - Clone the repo: `git clone https://github.com/fire-ui/fire-ui.git`
 - Fork the repo: click `fork` on this repository and type `git clone https://github.com/<Your username>/fire-ui.git`
-- Install with npm: `Fire UI HAS NOT RELEASED YET!`
+- Install with npm: `npm i @fire-ui/fire-ui`
+- Use jsdelivr: https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui/
 
 ## Bug and feature requests
 Have a bug or a feature request? [please open an issue](https://github.com/fire-ui/fire-ui/issues) if your problem or idea is not addressed yet. 
