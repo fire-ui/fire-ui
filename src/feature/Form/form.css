@@ -6,6 +6,10 @@
     font-family: "Work";
     src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
 }
+@font-face{
+    font-family: "Noto";
+    src: url("../../fonts/Work/NotoSans-Regular.ttf") format("truetype");
+}
 .form-label{
     font-family: "Roboto", "Work";
     margin: 10px 0;
@@ -20,4 +24,5 @@
     width: -webkit-fill-available;
     border-radius: 5px;
     padding: 8px;
+    font-family: "Noto";
 }
