@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kimlimjustin/fire-ui/issues"
   },
-  "homepage": "https://github.com/kimlimjustin/fire-ui#readme"
+  "homepage": "https://github.com/kimlimjustin/fire-ui#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
