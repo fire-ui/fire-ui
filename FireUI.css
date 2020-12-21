@@ -471,6 +471,7 @@ body{
 /* Box */
 /* Button */
 .btn{
+    display: inline-block;
     padding: 8px;
     border: 1px solid #999;
     border-radius: 5px;
