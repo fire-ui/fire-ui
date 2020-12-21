@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*
+If you want to make changes in project go to Features folder
+and change according scss file.
+
+To compile this file into normal css use 
+npm command:
+
+'npm run compile-main-scss'
+
+*/
 @font-face {
   font-family: "Roboto";
   src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
@@ -755,7 +765,7 @@ body {
 code {
   overflow: auto;
   font-family: "Work";
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   border: 1px solid #999;
   line-height: 1.2rem;
   border-radius: 5px; }
