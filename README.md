@@ -1,7 +1,7 @@
 # Fire UI
 > The framework contains everything that is frequently used on the frontend.
 
-[![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui)](https://github/fire-ui/fire-ui) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
+[![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/issues) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/network/members) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/stargazers) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
 [![NPM](https://nodei.co/npm/@fire-ui/fire-ui.png?mini=true)](https://npmjs.org/package/@fire-ui/fire-ui)
 
 
