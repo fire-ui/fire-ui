@@ -4,85 +4,83 @@ and FireUI.js in root folder as well. Thank you for contributing-->
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Fire UI CSS -->
-    <link rel="stylesheet" type="text/css" href="./FireUI.css" />
-    <!-- Fire UI Javascript -->
-    <script src="./FireUI.js"></script>
-    <title>Hello, world!</title>
 
-    <!--Margin and padding for examples clarity-->
-    <style>
-      .example {
-        margin-bottom: 100px;
-      }
-    </style>
-  </head>
-  <body>
-    <!--Accordian example-->
-    <div class="example">
-      <div class="accordion btn btn-dark" data-panel="Section1">
-        Open section 1
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Fire UI CSS -->
+  <link rel="stylesheet" type="text/css" href="./FireUI.css" />
+  <!-- Fire UI Javascript -->
+  <script src="./FireUI.js"></script>
+  <title>Hello, world!</title>
+
+  <!--Margin and padding for examples clarity-->
+  <style>
+    .example {
+      margin-bottom: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Accordian example-->
+  <div class="example">
+    <div class="accordion btn btn-dark" data-panel="Section1">
+      Open section 1
+    </div>
+    <div class="accordion-panel" id="Section1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div class="accordion btn btn-dark" data-panel="Section2">
+      Open section 2
+    </div>
+    <div class="accordion-panel theme-reverse" id="Section2">
+      <h3>Form inside accordion</h3>
+      <div class="form-group">
+        <p class="form-label">Username:</p>
+        <input type="text" class="form-control" />
       </div>
-      <div class="accordion-panel" id="Section1">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+      <div class="form-group">
+        <p class="form-label">Password:</p>
+        <input type="password" class="form-control" />
       </div>
-      <div class="accordion btn btn-dark" data-panel="Section2">
-        Open section 2
-      </div>
-      <div class="accordion-panel theme-reverse" id="Section2">
-        <h3>Form inside accordion</h3>
-        <div class="form-group">
-          <p class="form-label">Username:</p>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="form-group">
-          <p class="form-label">Password:</p>
-          <input type="password" class="form-control" />
-        </div>
-        <div class="form-group">
-          <input
-            type="submit"
-            value="Register"
-            class="form-control theme-adjust"
-          />
-        </div>
+      <div class="form-group">
+        <input type="submit" value="Register" class="form-control theme-adjust" />
       </div>
     </div>
-    <!--Accordian example end-->
+  </div>
+  <!--Accordian example end-->
 
-    <!--Box example-->
-    <div class="example">
-      <div class="box box-shadow">
-        <h1 class="box-title">Hello World</h1>
-      </div>
+  <!--Box example-->
+  <div class="example">
+    <div class="box box-shadow">
+      <h1 class="box-title">Hello World</h1>
     </div>
-    <!--Box example end-->
+  </div>
+  <!--Box example end-->
 
-    <!--Button examples-->
-    <div class="example">
-      <button class="btn btn-danger">Danger</button>
-      <button class="btn btn-success">Success</button>
-      <button class="btn btn-warning">Warning</button>
-      <button class="btn btn-dark">Dark</button>
-      <button class="btn btn-light">Light</button>
-      <button class="btn theme-reverse" theme="dark">btn theme-reverse</button>
-      <button class="btn theme-adjust" theme="light">btn theme-adjust</button>
-    </div>
-    <!--Button examples end-->
+  <!--Button examples-->
+  <div class="example">
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-dark">Dark</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn theme-reverse" theme="dark">btn theme-reverse</button>
+    <button class="btn theme-adjust" theme="light">btn theme-adjust</button>
+  </div>
+  <!--Button examples end-->
 
-    <!--Code examples-->
-    <div class="example">
-      <code>&#x3C;script&#x3E;alert("Hello World");&#x3C;/script&#x3E;</code>
-      <pre>
+  <!--Code examples-->
+  <div class="example">
+    <code>&#x3C;script&#x3E;alert("Hello World");&#x3C;/script&#x3E;</code>
+    <pre>
             &#x3C;!-- Fire UI has not released yet --&#x3E;                
             &#x3C;!DOCTYPE html&#x3E;
             &#x3C;html lang=&#x22;en&#x22;&#x3E;
@@ -100,181 +98,200 @@ and FireUI.js in root folder as well. Thank you for contributing-->
                 &#x3C;h1&#x3E;Hello, world!&#x3C;/h1&#x3E;
             &#x3C;/body&#x3E;
             &#x3C;/html&#x3E;
-            </pre
-      >
-    </div>
-    <!--Code examples end-->
-    <!--Form example-->
-    <div class="example">
-      <div class="box theme-reverse">
-        <div class="form-group">
-          <p class="form-label">Email address:</p>
-          <input type="email" class="form-control" />
-        </div>
-        <div class="form-group">
-          <p class="form-label">Username:</p>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="form-group">
-          <p class="form-label">Password:</p>
-          <input type="password" class="form-control" />
-        </div>
-        <div class="form-group">
-          <input type="submit" class="btn form-control theme-adjust" />
-        </div>
+            </pre>
+  </div>
+  <!--Code examples end-->
+  <!--Form example-->
+  <div class="example">
+    <div class="box theme-reverse">
+      <div class="form-group">
+        <p class="form-label">Email address:</p>
+        <input type="email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <p class="form-label">Username:</p>
+        <input type="text" class="form-control" />
+      </div>
+      <div class="form-group">
+        <p class="form-label">Password:</p>
+        <input type="password" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn form-control theme-adjust" />
       </div>
     </div>
-    <!--Form example end-->
-    <!--Modal example-->
-    <div class="example">
-      <button class="btn theme-reverse" open-modal data-modal="myModal">
-        Click to open modal
-      </button>
-      <div class="modal" id="myModal">
-        <div class="modal-content">
-          <span class="modal-close-btn" data-modal="myModal">&times;</span>
-          <h1 class="modal-content-title">Hello World</h1>
-          <p class="modal-content-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            at tincidunt ex. Vestibulum condimentum viverra fermentum. Vivamus
-            orci sem, sodales sed lorem ac, consectetur lacinia dui. Mauris non
-            ultrices tortor. Ut venenatis interdum justo, ac euismod tellus
-            finibus a. Pellentesque eget massa non lorem tempor rutrum. Maecenas
-            gravida augue vel elit laoreet finibus. Ut vitae suscipit ligula.
-            Nullam bibendum facilisis dolor, non tempus sapien venenatis in.
-            Aliquam ac nisl at enim volutpat efficitur quis id leo. Proin
-            volutpat nibh ut urna ultrices semper. Donec vehicula ullamcorper
-            dapibus. Proin in ultrices odio. Nam gravida bibendum turpis id
-            rutrum. Pellentesque erat lacus, sagittis bibendum vehicula quis,
-            bibendum a diam.
+  </div>
+  <!--Form example end-->
+  <!--Modal example-->
+  <div class="example">
+    <button class="btn theme-reverse" open-modal data-modal="myModal">
+      Click to open modal
+    </button>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="modal-close-btn" data-modal="myModal">&times;</span>
+        <h1 class="modal-content-title">Hello World</h1>
+        <p class="modal-content-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          at tincidunt ex. Vestibulum condimentum viverra fermentum. Vivamus
+          orci sem, sodales sed lorem ac, consectetur lacinia dui. Mauris non
+          ultrices tortor. Ut venenatis interdum justo, ac euismod tellus
+          finibus a. Pellentesque eget massa non lorem tempor rutrum. Maecenas
+          gravida augue vel elit laoreet finibus. Ut vitae suscipit ligula.
+          Nullam bibendum facilisis dolor, non tempus sapien venenatis in.
+          Aliquam ac nisl at enim volutpat efficitur quis id leo. Proin
+          volutpat nibh ut urna ultrices semper. Donec vehicula ullamcorper
+          dapibus. Proin in ultrices odio. Nam gravida bibendum turpis id
+          rutrum. Pellentesque erat lacus, sagittis bibendum vehicula quis,
+          bibendum a diam.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--modal example end-->
+
+  <!--navbar example-->
+  <div class="example">
+    <div class="topnav theme-reverse">
+      <span class="topnav-brand">Navbar</span>
+      <span class="topnav-hamburger-menu" data-target="myTopnav">&#x2630;</span>
+      <div class="topnav-right" id="myTopnav">
+        <a class="topnav-item" href="#">Home Page</a>
+        <a class="topnav-item" href="#">Features</a>
+        <a class="topnav-item" href="#">Pricing</a>
+      </div>
+    </div>
+  </div>
+  <!--navbar example end-->
+
+  <!--Table example-->
+  <div class="example">
+    <table>
+      <thead>
+        <tr>
+          <td>No</td>
+          <td>First Name</td>
+          <td>Last Name</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mike</td>
+          <td>Thompson</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>John</td>
+          <td>Sayers</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--Table example end-->
+
+  <!--Tabs example-->
+  <div class="example">
+    <div class="box">
+      <div class="tab" data-tab="exampleTab">
+        <button class="tab-btn btn-dark" data-content="helloWorld">
+          Hello
+        </button>
+        <button class="tab-btn btn-light" data-content="loremIpsum">
+          Lipsum
+        </button>
+      </div>
+      <div class="tab-contents" id="exampleTab">
+        <div id="helloWorld" class="tab-content tab-content-active">
+          <h1>Hello World</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            id metus ligula. Ut neque tortor, vulputate ut placerat id,
+            molestie at risus. Curabitur velit augue, facilisis eu nisi et,
+            placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis
+            ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. Nulla
+            urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus
+            turpis, at vulputate mauris. Suspendisse et efficitur massa, in
+            aliquam justo.
+          </p>
+        </div>
+        <div id="loremIpsum" class="tab-content">
+          <h1>Lorem ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            id metus ligula. Ut neque tortor, vulputate ut placerat id,
+            molestie at risus. Curabitur velit augue, facilisis eu nisi et,
+            placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis
+            ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. Nulla
+            urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus
+            turpis, at vulputate mauris. Suspendisse et efficitur massa, in
+            aliquam justo.
           </p>
         </div>
       </div>
     </div>
-    <!--modal example end-->
+  </div>
 
-    <!--navbar example-->
-    <div class="example">
-      <div class="topnav theme-reverse">
-        <span class="topnav-brand">Navbar</span>
-        <span class="topnav-hamburger-menu" data-target="myTopnav"
-          >&#x2630;</span
-        >
-        <div class="topnav-right" id="myTopnav">
-          <a class="topnav-item" href="#">Home Page</a>
-          <a class="topnav-item" href="#">Features</a>
-          <a class="topnav-item" href="#">Pricing</a>
-        </div>
-      </div>
-    </div>
-    <!--navbar example end-->
+  <!--Tabs example end-->
 
-    <!--Table example-->
-    <div class="example">
-      <table>
-        <thead>
-          <tr>
-            <td>No</td>
-            <td>First Name</td>
-            <td>Last Name</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Mike</td>
-            <td>Thompson</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>John</td>
-            <td>Sayers</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--Table example end-->
+  <!-- Spacing example -->
+  <div style="display: flex;">
+    <h3 class="mx-auto">Margin and Padding</h3>
+  </div>
+  <div>
+    <h5 class="m-0">m-0</h5>
+    <h5 class="m-1">m-1</h5>
+    <h5 class="m-2">m-2</h5>
+    <h5 class="m-3">m-3</h5>
+    <h5 class="m-4">m-4</h5>
+    <h5 class="m-5">m-5</h5>
 
-    <!--Tabs example-->
-    <div class="example">
-      <div class="box">
-        <div class="tab" data-tab="exampleTab">
-          <button class="tab-btn btn-dark" data-content="helloWorld">
-            Hello
-          </button>
-          <button class="tab-btn btn-light" data-content="loremIpsum">
-            Lipsum
-          </button>
-        </div>
-        <div class="tab-contents" id="exampleTab">
-          <div id="helloWorld" class="tab-content tab-content-active">
-            <h1>Hello World</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              id metus ligula. Ut neque tortor, vulputate ut placerat id,
-              molestie at risus. Curabitur velit augue, facilisis eu nisi et,
-              placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis
-              ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. Nulla
-              urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus
-              turpis, at vulputate mauris. Suspendisse et efficitur massa, in
-              aliquam justo.
-            </p>
-          </div>
-          <div id="loremIpsum" class="tab-content">
-            <h1>Lorem ipsum</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              id metus ligula. Ut neque tortor, vulputate ut placerat id,
-              molestie at risus. Curabitur velit augue, facilisis eu nisi et,
-              placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis
-              ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. Nulla
-              urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus
-              turpis, at vulputate mauris. Suspendisse et efficitur massa, in
-              aliquam justo.
-            </p>
-          </div>
-        </div>
-      </div>
+    <h5 class="p-0">p-0</h5>
+    <h5 class="p-1">p-1</h5>
+    <h5 class="p-2">p-2</h5>
+    <h5 class="p-3">p-3</h5>
+    <h5 class="p-4">p-4</h5>
+    <h5 class="p-5">p-5</h5>
+  </div>
+  <!-- Spacing example end -->
+
+  <!--Tooltip example-->
+  <div class="example">
+    <div class="tooltip">
+      Pop Right (Default)
+      <span class="tooltip-data">I am a tooltip</span>
     </div>
 
-    <!--Tabs example end-->
-
-    <!--Tooltip example-->
-    <div class="example">
-      <div class="tooltip">
-        Pop Right (Default)
-        <span class="tooltip-data">I am a tooltip</span>
-      </div>
-
-      <div class="tooltip">
-        Pop Left
-        <span class="tooltip-data tooltip-left">I am a tooltip</span>
-      </div>
-
-      <div class="tooltip">
-        Pop Top
-        <span class="tooltip-data tooltip-top">I am a tooltip</span>
-      </div>
-
-      <div class="tooltip">
-        Pop Bottom
-        <span class="tooltip-data tooltip-bottom">I am a tooltip</span>
-      </div>
+    <div class="tooltip">
+      Pop Left
+      <span class="tooltip-data tooltip-left">I am a tooltip</span>
     </div>
 
-    <!--Tooltip example end-->
-    <!--Change theme example-->
-    <div class="example">
-      <p>
-        You can switch theme of this website by clicking
-        <u switch-theme>here</u> and
-        <button switch-theme class="theme-reverse btn">Here</button>
-      </p>
+    <div class="tooltip">
+      Pop Top
+      <span class="tooltip-data tooltip-top">I am a tooltip</span>
     </div>
-    <!--Change theme example end-->
 
-    <!--If u cannot find here component you want to check, you can find it here:
+    <div class="tooltip">
+      Pop Bottom
+      <span class="tooltip-data tooltip-bottom">I am a tooltip</span>
+    </div>
+  </div>
+
+  <!--Tooltip example end-->
+  <!--Change theme example-->
+  <div class="example">
+    <p>
+      You can switch theme of this website by clicking
+      <u switch-theme>here</u> and
+      <button switch-theme class="theme-reverse btn">Here</button>
+    </p>
+  </div>
+  <!--Change theme example end-->
+
+  <!--If u cannot find here component you want to check, you can find it here:
     https://fire-ui.github.io/index.html
     -->
-  </body>
+</body>
+
 </html>
