@@ -4,7 +4,7 @@
   "description": "The framework contains everything that is frequently used on the frontend",
   "main": "FireUI.js",
   "scripts": {
-    "compile-main-scss": "npx node-sass './src/FireUISource.scss' 'FireUI.css'"
+    "compile-main-scss": "npx node-sass src/FireUISource.scss FireUI.css"
   },
   "repository": {
     "type": "git",
