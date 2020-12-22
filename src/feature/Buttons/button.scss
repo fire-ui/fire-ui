@@ -1,51 +1,54 @@
-@font-face{
-    font-family: "Noto";
-    src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+@font-face {
+  font-family: "Noto";
+  src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype");
 }
-@font-face{
-    font-family: "Work";
-    src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
+@font-face {
+  font-family: "Work";
+  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
 }
-.btn{
-    display: inline-block;
-    padding: 8px;
-    border: 1px solid #999;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Noto", "Work";
-    cursor: pointer;
+.btn {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Noto", "Work";
+  cursor: pointer;
 }
 
-.btn:hover{
-    box-shadow: 5px 2px 8px;
-    transition: 0.4s;
-    transition-timing-function: ease-out;
-    opacity: .7;
+.btn:hover {
+  box-shadow: 5px 2px 8px;
+  transition: 0.4s;
+  transition-timing-function: ease-out;
 }
 .btn:active {
-    box-shadow: 5px 2px 8px;
-    transition: 0.3s;
-    transition-timing-function: ease-in;
-    opacity: .5;
+  box-shadow: 5px 2px 8px;
+  transition: 0.3s;
+  transition-timing-function: ease-in;
+  opacity: 0.5;
 }
-.btn-dark{
-    background-color: #101c29;
-    color: #eef0f2;
+
+.btn-dark {
+  background-color: #101c29;
+  color: #eef0f2;
 }
-.btn-light{
-    background-color: #eef0f2;
-    color: #101c29;
+.btn-light {
+  background-color: #eef0f2;
+  color: #101c29;
 }
-.btn-danger{
-    background-color: #eb2421;
-    color: #eef0f2;
+.btn-danger {
+  background-color: #eb2421;
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black;
 }
-.btn-success{
-    background-color: #0ac071;
-    color: #eef0f2;
+.btn-success {
+  background-color: #0ac071;
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black;
 }
-.btn-warning{
-    background-color: #e4ad15;
-    color: #eef0f2;
+.btn-warning {
+  background-color: #e4ad15;
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black;
 }
