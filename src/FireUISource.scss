@@ -1,0 +1,136 @@
+/*
+If you want to make changes in project go to Features folder
+and change according scss file.
+
+To compile this file into normal css use 
+npm command:
+
+'npm run compile-main-scss'
+
+*/
+@font-face{
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family: "Noto";
+    src: url("./src/fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Work";
+    src: url("./src/fonts/Work/WorkSans-Medium.ttf") format("truetype");
+}
+:root{
+    /* Colors */
+    --dark-color: #101c29;
+    --light-color: #eef0f2;
+    --black-color: #000;
+    --white-color: #fff;
+    --blue-color: #04d7de;
+    --red-color: #eb2421;
+    --yellow-color: #FDCD49;
+    --green-color: #2FDA90;
+    --purple-color: #57038f;
+}
+html{
+    -ms-overflow-style: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Noto", "Work";
+    scroll-behavior: smooth;
+}
+
+/* Spacing */
+@import "./feature/Spacing/spacing.scss";
+/* Spacing */
+
+/* Scrollbar */
+@import "./feature/Scrollbar/scrollbar.scss";
+/* Scrollbar */
+
+/* Colors and theme*/
+@import "./feature/Colors_and_Theme/color.scss";
+/* Colors and theme*/
+
+/* Grid System */
+@import "./feature/Grid_System/grid_system.scss";
+/* Grid System */
+/* Box */
+@import "./feature/Box/box.scss";
+/* Box */
+/* Button */
+@import "./feature/Buttons/button.scss";
+/* Button */
+/* Form */
+@import "./feature/Form/form.scss";
+/* Form */
+
+/* Navbar */
+@import "./feature/Navigation_Bar/navbar.scss";
+/* Navbar */
+/* Code */
+@import "./feature/Code/code.scss";
+/* Code */
+/* Modal */
+@import "./feature/Modal/modal.scss";
+/* Modal */
+/* Tooltip */
+@import "./feature/Tooltip/tooltip.scss";
+/* Tooltip */
+/* Table */
+@import "./feature/Table/table.scss";
+/* Table */
+/* Tabs */
+@import "./feature/Tabs/tab.scss";
+/* Tabs */
+/* Accordion */
+@import "./feature/Accordion/accordion.scss";
+/* Accordion */
+
+
+@media only screen and (min-width: 600px){
+    .container{
+        width: 550px;
+    }
+}
+@media only screen and (max-width: 600px){
+    [class*="col-"]:not([class*="col-ex"]){
+		width: 100% !important;
+    }
+}
+@media only screen and (min-width: 768px){
+    .container{
+        width: 730px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .col-1{
+		width: 16.66%;
+	}
+	.col-2{
+		width: 25%;
+	}
+	.col-3, .col-4, .col-5, .col-6{
+		width: 50%;
+	}
+	.col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+		width: 100%;
+    }
+    /* Navbar */
+    @import "./feature/Navigation_Bar/navbar.scss";
+    /* Navbar */
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        width: 1130px;
+    }
+}
