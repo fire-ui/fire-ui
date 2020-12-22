@@ -7,6 +7,13 @@ npm command:
 
 'npm run compile-main-scss'
 
+To minify main css file use:
+
+'npm run minify-main-css'.
+
+if you want to change another file use instructions from
+this website https://www.npmjs.com/package/minify.
+
 */
 @font-face{
     font-family: "Roboto";
