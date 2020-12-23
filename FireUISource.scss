@@ -17,15 +17,15 @@ this website https://www.npmjs.com/package/minify.
 */
 @font-face{
     font-family: "Roboto";
-    src: url("./fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+    src: url("./src/fonts/Roboto/Roboto-Regular.ttf")format('truetype');
 }
 @font-face{
     font-family: "Noto";
-    src: url("./src/fonts/Noto/NotoSans-Regular.ttf") format("truetype");
+    src: url("./src/fonts/Noto/NotoSans-Regular.ttf")format("truetype");
 }
 @font-face{
     font-family: "Work";
-    src: url("./src/fonts/Work/WorkSans-Medium.ttf") format("truetype");
+    src: url("./src/fonts/Work/WorkSans-Medium.ttf")format("truetype");
 }
 :root{
     /* Colors */
@@ -50,50 +50,50 @@ body{
 }
 
 /* Spacing */
-@import "./feature/Spacing/spacing.scss";
+@import "./src/feature/Spacing/spacing.scss";
 /* Spacing */
 
 /* Scrollbar */
-@import "./feature/Scrollbar/scrollbar.scss";
+@import "./src/feature/Scrollbar/scrollbar.scss";
 /* Scrollbar */
 
 /* Colors and theme*/
-@import "./feature/Colors_and_Theme/color.scss";
+@import "./src/feature/Colors_and_Theme/color.scss";
 /* Colors and theme*/
 
 /* Grid System */
-@import "./feature/Grid_System/grid_system.scss";
+@import "./src/feature/Grid_System/grid_system.scss";
 /* Grid System */
 /* Box */
-@import "./feature/Box/box.scss";
+@import "./src/feature/Box/box.scss";
 /* Box */
 /* Button */
-@import "./feature/Buttons/button.scss";
+@import "./src/feature/Buttons/button.scss";
 /* Button */
 /* Form */
-@import "./feature/Form/form.scss";
+@import "./src/feature/Form/form.scss";
 /* Form */
 
 /* Navbar */
-@import "./feature/Navigation_Bar/navbar.scss";
+@import "./src/feature/Navigation_Bar/navbar.scss";
 /* Navbar */
 /* Code */
-@import "./feature/Code/code.scss";
+@import "./src/feature/Code/code.scss";
 /* Code */
 /* Modal */
-@import "./feature/Modal/modal.scss";
+@import "./src/feature/Modal/modal.scss";
 /* Modal */
 /* Tooltip */
-@import "./feature/Tooltip/tooltip.scss";
+@import "./src/feature/Tooltip/tooltip.scss";
 /* Tooltip */
 /* Table */
-@import "./feature/Table/table.scss";
+@import "./src/feature/Table/table.scss";
 /* Table */
 /* Tabs */
-@import "./feature/Tabs/tab.scss";
+@import "./src/feature/Tabs/tab.scss";
 /* Tabs */
 /* Accordion */
-@import "./feature/Accordion/accordion.scss";
+@import "./src/feature/Accordion/accordion.scss";
 /* Accordion */
 
 
@@ -126,7 +126,7 @@ body{
 		width: 100%;
     }
     /* Navbar */
-    @import "./feature/Navigation_Bar/navbar.scss";
+    @import "./src/feature/Navigation_Bar/navbar.scss";
     /* Navbar */
 }
 

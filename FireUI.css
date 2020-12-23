@@ -8,10 +8,17 @@ npm command:
 
 'npm run compile-main-scss'
 
+To minify main css file use:
+
+'npm run minify-main-css'.
+
+if you want to change another file use instructions from
+this website https://www.npmjs.com/package/minify.
+
 */
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+  src: url("./src/fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Noto";
@@ -542,14 +549,6 @@ body {
 
 /* Box */
 /* Button */
-@font-face {
-  font-family: "Noto";
-  src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Work";
-  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype"); }
-
 .btn {
   display: inline-block;
   padding: 8px;
@@ -594,18 +593,6 @@ body {
 
 /* Button */
 /* Form */
-@font-face {
-  font-family: "Roboto";
-  src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Work";
-  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Noto";
-  src: url("../../fonts/Work/NotoSans-Regular.ttf") format("truetype"); }
-
 .form-label {
   font-family: "Roboto", "Work";
   margin: 10px 0; }
