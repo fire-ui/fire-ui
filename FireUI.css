@@ -553,7 +553,7 @@ body {
   display: inline-block;
   padding: 8px;
   border: 1px solid #999;
-  border-radius: 15px;
+  border-radius: 5px;
   text-decoration: none;
   font-size: 1rem;
   font-family: "Noto", "Work";
@@ -752,11 +752,10 @@ body {
 /* Navbar */
 /* Code */
 code {
-  display: inline-block;
+  display: inline-flex;
   overflow: auto;
   font-family: "Work";
-  padding: 0.5rem;
-  border: 1px solid #999;
+  padding: 0.2rem;
   line-height: 1.2rem;
   border-radius: 5px; }
 
