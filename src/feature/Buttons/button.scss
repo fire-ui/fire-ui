@@ -1,20 +1,12 @@
-@font-face {
-  font-family: "Noto";
-  src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Work";
-  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype");
-}
-.btn {
-  display: inline-block;
-  padding: 8px;
-  border: 1px solid #999;
-  border-radius: 15px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-family: "Noto", "Work";
-  cursor: pointer;
+.btn{
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;    
+    font-family: "Noto", "Work";
+    cursor: pointer;
 }
 
 .btn:hover {
