@@ -553,7 +553,7 @@ body {
   display: inline-block;
   padding: 8px;
   border: 1px solid #999;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
   font-size: 1rem;
   font-family: "Noto", "Work";
@@ -562,14 +562,13 @@ body {
 .btn:hover {
   box-shadow: 5px 2px 8px;
   transition: 0.4s;
-  transition-timing-function: ease-out;
-  opacity: .7; }
+  transition-timing-function: ease-out; }
 
 .btn:active {
   box-shadow: 5px 2px 8px;
   transition: 0.3s;
   transition-timing-function: ease-in;
-  opacity: .5; }
+  opacity: 0.5; }
 
 .btn-dark {
   background-color: #101c29;
@@ -581,15 +580,18 @@ body {
 
 .btn-danger {
   background-color: #eb2421;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 .btn-success {
   background-color: #0ac071;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 .btn-warning {
   background-color: #e4ad15;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 /* Button */
 /* Form */
@@ -750,6 +752,7 @@ body {
 /* Navbar */
 /* Code */
 code {
+  display: inline-block;
   overflow: auto;
   font-family: "Work";
   padding: 0.5rem;
