@@ -8,10 +8,17 @@ npm command:
 
 'npm run compile-main-scss'
 
+To minify main css file use:
+
+'npm run minify-main-css'.
+
+if you want to change another file use instructions from
+this website https://www.npmjs.com/package/minify.
+
 */
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+  src: url("./src/fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Noto";
@@ -542,14 +549,6 @@ body {
 
 /* Box */
 /* Button */
-@font-face {
-  font-family: "Noto";
-  src: url("../../fonts/Noto/NotoSans-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Work";
-  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype"); }
-
 .btn {
   display: inline-block;
   padding: 8px;
@@ -563,14 +562,13 @@ body {
 .btn:hover {
   box-shadow: 5px 2px 8px;
   transition: 0.4s;
-  transition-timing-function: ease-out;
-  opacity: .7; }
+  transition-timing-function: ease-out; }
 
 .btn:active {
   box-shadow: 5px 2px 8px;
   transition: 0.3s;
   transition-timing-function: ease-in;
-  opacity: .5; }
+  opacity: 0.5; }
 
 .btn-dark {
   background-color: #101c29;
@@ -582,30 +580,21 @@ body {
 
 .btn-danger {
   background-color: #eb2421;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 .btn-success {
   background-color: #0ac071;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 .btn-warning {
   background-color: #e4ad15;
-  color: #eef0f2; }
+  color: #eef0f2;
+  text-shadow: 2px 2px 5px black; }
 
 /* Button */
 /* Form */
-@font-face {
-  font-family: "Roboto";
-  src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Work";
-  src: url("../../fonts/Work/WorkSans-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Noto";
-  src: url("../../fonts/Work/NotoSans-Regular.ttf") format("truetype"); }
-
 .form-label {
   font-family: "Roboto", "Work";
   margin: 10px 0; }
@@ -763,10 +752,10 @@ body {
 /* Navbar */
 /* Code */
 code {
+  display: inline-flex;
   overflow: auto;
   font-family: "Work";
-  padding: 0.5rem;
-  border: 1px solid #999;
+  padding: 0.2rem;
   line-height: 1.2rem;
   border-radius: 5px; }
 
