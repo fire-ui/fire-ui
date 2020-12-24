@@ -26,7 +26,9 @@
     .container{
         width: 550px;
     }
-    [class*="col-"]{
+}
+@media only screen and (max-width: 600px){
+    [class*="col-"]:not([class*="col-ex"]) {
 		width: 100% !important;
 	}
 }
@@ -34,6 +36,8 @@
     .container{
         width: 730px;
     }
+}
+@media only screen and (max-width: 768px){
     .col-1{
 		width: 16.66%;
 	}
@@ -44,9 +48,6 @@
 		width: 50%;
 	}
 	.col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
-		width: 100%;
-	}
-	[class*="col-ex-"]{
 		width: 100%;
 	}
 }
