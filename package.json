@@ -3,12 +3,10 @@
   "version": "0.1.1",
   "description": "The framework contains everything that is frequently used on the frontend",
   "main": "FireUI.js",
-  "scripts": 
-    {
-      "compile-main-scss": "npx node-sass FireUISource.scss FireUI.css",
-      "minify-main-css": "npx minify FireUI.css > FireUI.min.css"
-    }
-  ,
+  "scripts": {
+    "compile-main-scss": "npx node-sass FireUISource.scss FireUI.css",
+    "minify-main-css": "npx minify FireUI.css > FireUI.min.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kimlimjustin/fire-ui.git"
