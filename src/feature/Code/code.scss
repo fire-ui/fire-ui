@@ -14,11 +14,11 @@ pre{
     transition: .5s;
     border-radius: 5px;
 }
-body[theme = "light"] pre, body[theme = "light"] code{
+body[data-theme = "light"] pre, body[data-theme = "light"] code{
     background-color: var(--dark-color);
     color: var(--light-color);
 }
-body[theme = "dark"] pre, body[theme = "dark"] code{
+body[data-theme = "dark"] pre, body[data-theme = "dark"] code{
     background-color: var(--light-color);
     color: var(--dark-color);
 }
