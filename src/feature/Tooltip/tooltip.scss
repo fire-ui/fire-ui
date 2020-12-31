@@ -1,9 +1,9 @@
-[theme = "light"] .tooltip-data{
+[data-theme = "light"] .tooltip-data{
     background-color: var(--dark-color) !important;
     color: var(--white-color) !important;
     transition: 0.4;
 }
-[theme = "dark"] .tooltip-data {
+[data-theme = "dark"] .tooltip-data {
 	color:var (--black-color)!important;
 	background-color: var(--light-color) !important;
 }

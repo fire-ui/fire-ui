@@ -462,12 +462,12 @@ body {
 
 /* Slideshow */
 /* Colors and theme*/
-[theme="dark"], .dark-mode {
+[data-theme="dark"], .dark-mode {
   background-color: #101c29 !important;
   color: #fff !important;
   transition: 0.5s; }
 
-[theme="light"], .light-mode {
+[data-theme="light"], .light-mode {
   background-color: #eef0f2 !important;
   color: #000 !important;
   transition: 0.5s; }
@@ -520,11 +520,11 @@ body {
 .purple-background {
   background-color: #57038f !important; }
 
-[theme="dark"] .theme-adjust, [theme="light"] .theme-reverse {
+[data-theme="dark"] .theme-adjust, [data-theme="light"] .theme-reverse {
   background-color: #101c29 !important;
   color: #eef0f2 !important; }
 
-[theme="light"] .theme-adjust, [theme="dark"] .theme-reverse {
+[data-theme="light"] .theme-adjust, [data-theme="dark"] .theme-reverse {
   background-color: #eef0f2 !important;
   color: #101c29 !important; }
 
@@ -853,11 +853,11 @@ pre {
   transition: .5s;
   border-radius: 5px; }
 
-body[theme="light"] pre, body[theme="light"] code {
+body[data-theme="light"] pre, body[data-theme="light"] code {
   background-color: var(--dark-color);
   color: var(--light-color); }
 
-body[theme="dark"] pre, body[theme="dark"] code {
+body[data-theme="dark"] pre, body[data-theme="dark"] code {
   background-color: var(--light-color);
   color: var(--dark-color); }
 
@@ -918,12 +918,12 @@ body[theme="dark"] pre, body[theme="dark"] code {
 
 /* Modal */
 /* Tooltip */
-[theme="light"] .tooltip-data {
+[data-theme="light"] .tooltip-data {
   background-color: var(--dark-color) !important;
   color: var(--white-color) !important;
   transition: 0.4; }
 
-[theme="dark"] .tooltip-data {
+[data-theme="dark"] .tooltip-data {
   color: var --black-color !important;
   background-color: var(--light-color) !important; }
 
