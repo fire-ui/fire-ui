@@ -98,15 +98,15 @@ function currentSlide(n) { activeSlide(defaultIndex = n); }
 function activeSlide(n) {
   var i;
   var slides = document.getElementsByClassName("slideshow");
-  var info = document.getElementsByClassName("info");
+  var info = document.getElementsByClassName("slideshow-dot");
   if (n > slides.length) {defaultIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n < 1) {defaultIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].classList.add("none");
+      slides[i].classList.add("slideshow-none");
   }
   for (i = 0; i < info.length; i++) {
-      info[i].className = info[i].className.replace(" active", "");
+      info[i].className = info[i].className.replace(" slideshow-active", "");
   }
-  slides[defaultIndex-1].classList.toggle("none");
-  info[defaultIndex-1].className += " active";
+  if(slides[defaultIndex - 1]) slides[defaultIndex-1].classList.toggle("slideshow-none");
+  if(info[defaultIndex - 1]) info[defaultIndex-1].className += " slideshow-active";
 }
