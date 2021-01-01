@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.topnav {
+  padding: 10px;
+  overflow: hidden;
+  font-size: 18px; }
+
+.topnav-shadow {
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.5); }
+
+.topnav .topnav-brand {
+  font-size: 1.6rem;
+  font-family: "Work";
+  float: left;
+  cursor: pointer;
+  margin: 0 20px 0 0; }
+
+.topnav .topnav-item {
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Noto";
+  margin: 0.4rem 8px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: inherit; }
+
+.topnav .topnav-item:hover {
+  opacity: .8; }
+
+.topnav-right {
+  float: right; }
+
+.topnav-hamburger-menu {
+  float: right;
+  font-size: 1.3rem;
+  display: none; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  overflow-x: auto;
+  transition: 0.5s;
+  background-color: var(--light-color);
+  box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.5); }
+
+.sidenav-content {
+  font-family: "Roboto";
+  margin: 20px; }
+
+.sidenav-title {
+  font-size: 1.6rem;
+  font-family: "Work";
+  cursor: pointer; }
+
+.sidenav .sidenav-item {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Noto";
+  margin: 5px;
+  display: block;
+  cursor: pointer; }
+
+.sidenav .sidenav-item:hover {
+  opacity: .8; }
+
+.sidenav .sidenav-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  cursor: pointer; }
+
+.fixed-sidenav {
+  height: 100%;
+  width: 200px;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px 0px;
+  box-shadow: 2px 3px;
+  z-index: 7;
+  box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.5); }
+
+.fixed-sidenav-item, .fixed-sidenav-dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  border: none;
+  width: -webkit-fill-available;
+  overflow: auto;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  outline: none; }
+
+.fixed-sidenav-item:hover {
+  opacity: .8; }
+
+.fixed-sidenav-dropdown-content {
+  display: none;
+  padding-left: 8px; }
+
+.dropdown-icon::before {
+  content: "▼";
+  float: right; }
+
+.main-page {
+  margin-left: 200px; }
+
+.main-page .container {
+  width: auto; }
+
+.fixed-sidenav-dropdown-active {
+  display: block; }
+
+@media only screen and (max-width: 768px) {
+  .fixed-sidenav {
+    max-height: 30vh;
+    overflow: auto;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 0; }
+  .topnav-list {
+    display: none;
+    width: 100%; }
+  .main-page {
+    margin-left: 0; }
+  .topnav-list .topnav-item {
+    width: -webkit-fill-available; } }
