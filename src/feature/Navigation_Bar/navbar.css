@@ -134,4 +134,6 @@
   .main-page {
     margin-left: 0; }
   .topnav-list .topnav-item {
-    width: -webkit-fill-available; } }
+    width: -webkit-fill-available; }
+  .topnav-hamburger-menu {
+    display: block; } }
