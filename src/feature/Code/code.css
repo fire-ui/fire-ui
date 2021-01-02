@@ -1,0 +1,23 @@
+code {
+  display: inline-flex;
+  overflow: auto;
+  font-family: "Work";
+  padding: 0.2rem;
+  line-height: 1.2rem;
+  border-radius: 5px; }
+
+pre {
+  padding: 0.5rem;
+  font-family: "Work";
+  tab-size: 4;
+  overflow: auto;
+  transition: .5s;
+  border-radius: 5px; }
+
+body[data-theme="light"] pre, body[data-theme="light"] code {
+  background-color: var(--dark-color);
+  color: var(--light-color); }
+
+body[data-theme="dark"] pre, body[data-theme="dark"] code {
+  background-color: var(--light-color);
+  color: var(--dark-color); }

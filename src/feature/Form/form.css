@@ -1,0 +1,17 @@
+.form-label {
+  font-family: "Roboto", "Work";
+  margin: 10px 0; }
+
+.form-group {
+  margin: 16px 14px; }
+
+.form-control {
+  border: 1px solid #bfbfbf;
+  width: -webkit-fill-available;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: "Noto"; }
+
+.textarea-auto-adjust {
+  overflow: hidden;
+  min-height: 50px; }
