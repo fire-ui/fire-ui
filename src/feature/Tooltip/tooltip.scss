@@ -4,7 +4,7 @@
     transition: 0.4;
 }
 [data-theme = "dark"] .tooltip-data {
-	color:var (--black-color)!important;
+	color: var(--black-color)!important;
 	background-color: var(--light-color) !important;
 }
 .tooltip {
