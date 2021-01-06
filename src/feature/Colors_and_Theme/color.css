@@ -7,7 +7,11 @@
   background-color: #eef0f2 !important;
   color: #000 !important;
   transition: 0.5s; }
-
+[data-theme="aqua"], .aqua-mode {
+  background-color: #0070f3 !important;
+  color: #000000 !important
+  transition: 0.8s
+}
 .black-text {
   color: #000 !important; }
 
@@ -25,10 +29,10 @@
 
 .green-text {
   color: #33ff0a !important; }
-
+.aqua-text{color:#000;}
 .purple-text {
   color: #57038f !important; }
-
+.aqua-background{background-color: #0070f3 !important }
 .dark-background {
   background-color: #101c29 !important; }
 
