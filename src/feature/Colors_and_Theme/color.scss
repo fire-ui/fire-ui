@@ -8,6 +8,11 @@
     color: #000 !important;
     transition: 0.5s;
 }
+[data-theme="aqua"], .aqua-mode {
+  background-color: #0070f3 !important;
+  color: #000000 !important;
+  transition: 0.8s; 
+}
 
 .black-text{color: #000 !important}
 .white-text{color: #fff !important}
@@ -16,6 +21,7 @@
 .yellow-text{color: #deff0a !important}
 .green-text{color: #33ff0a !important}
 .purple-text{color: #57038f !important}
+.aqua-text{color: #0070f3 !important}
 
 .dark-background{background-color: #101c29 !important}
 .light-background{background-color: #eef0f2 !important}
@@ -26,6 +32,16 @@
 .yellow-background{background-color: #deff0a !important}
 .green-background{background-color: #33ff0a !important}
 .purple-background{background-color: #57038f !important}
+.aqua-background{background-color: #0070f3 !important }
+
+[data-theme = "aqua"] .theme-reverse{
+    background-color: #eef0f2 !important;
+    color: #101c29 !important;
+}
+[data-theme = "aqua"] .theme-adjust{
+    background-color: #33ff0a !important;
+    color: #eef0f2 !important;
+}
 
 [data-theme = "dark"] .theme-adjust, [data-theme = "light"] .theme-reverse{
     background-color: #101c29 !important;
