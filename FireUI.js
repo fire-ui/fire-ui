@@ -96,6 +96,26 @@ document.addEventListener("DOMContentLoaded", () => {
             textarea.style.height = textarea.scrollHeight + 'px';
         })
     })
+    document.querySelectorAll("pre").forEach(pre => {
+        if(Boolean(pre.getElementsByTagName('code').length) && !(pre.hasAttribute('data-copyable') && pre.dataset.copyable === "false")){
+            var copyBtn = document.createElement('button');
+            copyBtn.classList.add('code-copyBtn');
+            copyBtn.innerText = "Copy";
+            pre.insertBefore(copyBtn, pre.firstChild)
+            copyBtn.addEventListener('click', () => {
+                const code = pre.querySelector('code').innerText;
+                const textarea = document.createElement("textarea");
+                textarea.value = code;
+                textarea.style.opacity = '0';
+                textarea.setAttribute('readonly', '');
+                document.body.appendChild(textarea);
+                textarea.select()
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                copyBtn.innerText = "Copied";
+            })
+        }
+    })
 })
 var defaultIndex = 1;
 activeSlide(defaultIndex);
