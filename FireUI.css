@@ -871,6 +871,7 @@ pre {
   font-family: "Work";
   tab-size: 4;
   overflow: auto;
+  position: relative;
   transition: .5s;
   border-radius: 5px; }
 
@@ -883,17 +884,20 @@ body[data-theme="dark"] pre, body[data-theme="dark"] code, body[data-theme="aqua
   color: var(--dark-color); }
 
 pre .code-copyBtn {
-  display: block;
+  display: none;
   text-align: center;
   border-radius: 25px;
   border-style: solid;
-  position: relative;
-  float: right;
+  position: absolute;
+  left: 20px;
   outline: none;
   cursor: pointer;
   padding: 5px 10px;
   transition: ease-in-out .3s;
   z-index: 100; }
+
+pre:hover .code-copyBtn {
+  display: block; }
 
 pre[data-copyable="false"] {
   -webkit-touch-callout: none;
