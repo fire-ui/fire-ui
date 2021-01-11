@@ -45,7 +45,7 @@
   left: 0;
   overflow-x: auto;
   transition: 0.5s;
-  background-color: var(--light-color);
+  background-color: #eef0f2;
   box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.5); }
 
 .sidenav-content {
