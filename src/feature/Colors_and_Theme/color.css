@@ -13,6 +13,16 @@
   color: #000000 !important;
   transition: 0.8s; }
 
+[data-theme="phoenix"], .phoenix-mode {
+  background-color: #ee2224 !important;
+  color: #fff !important;
+  transition: 0.8s; }
+
+[data-theme="sky"], .sky-mode {
+  background-color: #673ab7 !important;
+  color: #fff !important;
+  transition: 0.8s; }
+
 .black-text {
   color: #000 !important; }
 
@@ -22,8 +32,8 @@
 .blue-text {
   color: #04d7de !important; }
 
-.red-text {
-  color: #eb2421 !important; }
+.phoenix-text {
+  color: #ee2224 !important; }
 
 .yellow-text {
   color: #deff0a !important; }
@@ -52,8 +62,8 @@
 .blue-background {
   background-color: #04d7de !important; }
 
-.red-background {
-  background-color: #eb2421 !important; }
+.phoenix-background {
+  background-color: #ee2224 !important; }
 
 .yellow-background {
   background-color: #deff0a !important; }
@@ -67,12 +77,20 @@
 .aqua-background {
   background-color: #0070f3 !important; }
 
-[data-theme="aqua"] .theme-reverse {
+[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse {
   background-color: #eef0f2 !important;
   color: #101c29 !important; }
 
 [data-theme="aqua"] .theme-adjust {
-  background-color: #33ff0a !important;
+  background-color: #0070f3 !important;
+  color: #eef0f2 !important; }
+
+[data-theme="phoenix"] .theme-adjust {
+  background-color: #ee2224 !important;
+  color: #eef0f2 !important; }
+
+[data-theme="sky"] .theme-adjust {
+  background-color: #0070f3 !important;
   color: #eef0f2 !important; }
 
 [data-theme="dark"] .theme-adjust, [data-theme="light"] .theme-reverse {
