@@ -1,53 +1,89 @@
+:root{
+    /* Colors */
+    --dark-color: #101c29;
+    --light-color: #eef0f2;
+    --black-color: #000;
+    --white-color: #fff;
+    --blue-color: #04d7de;
+    --red-color: #eb2421;
+    --yellow-color: #FDCD49;
+    --green-color: #2FDA90;
+    --purple-color: #57038f;
+    --aqua-color: #0070f3;
+    --phoenix-color: #ee2224;
+    --sky-color: #673ab7;
+}
 [data-theme = "dark"], .dark-mode{
-    background-color:#101c29 !important;
-    color: #fff !important;
+    background-color:var(--dark-color) !important;
+    color: var(--white-color) !important;
     transition: 0.5s;
 }
 [data-theme = "light"], .light-mode{
-    background-color:  #eef0f2 !important;
-    color: #000 !important;
+    background-color: var(--light-color) !important;
+    color: var(--black-color) !important;
     transition: 0.5s;
 }
 [data-theme="aqua"], .aqua-mode {
-  background-color: #0070f3 !important;
-  color: #000000 !important;
+  background-color: var(--aqua-color) !important;
+  color: var(--black-color) !important;
   transition: 0.8s; 
 }
 
-.black-text{color: #000 !important}
-.white-text{color: #fff !important}
-.blue-text{color: #04d7de !important}
-.red-text{color: #eb2421 !important}
-.yellow-text{color: #deff0a !important}
-.green-text{color: #33ff0a !important}
-.purple-text{color: #57038f !important}
-.aqua-text{color: #0070f3 !important}
+[data-theme = "phoenix"], .phoenix-mode{
+    background-color: var(--phoenix-color) !important;
+    color: var(--light-color) !important;
+    transition: 0.8s;
+}
+[data-theme = "sky"], .sky-mode{
+    background-color: var(--sky-color) !important;
+    color:var(--white-color) !important;
+    transition: 0.8s;
+}
 
-.dark-background{background-color: #101c29 !important}
-.light-background{background-color: #eef0f2 !important}
-.black-background{background-color: #000 !important}
-.white-background{background-color: #fff !important}
-.blue-background{background-color: #04d7de !important}
-.red-background{background-color: #eb2421 !important}
-.yellow-background{background-color: #deff0a !important}
-.green-background{background-color: #33ff0a !important}
-.purple-background{background-color: #57038f !important}
-.aqua-background{background-color: #0070f3 !important }
+.black-text{color: var(--black-color) !important}
+.white-text{color: var(--white-color) !important}
+.blue-text{color: var(--blue-color) !important}
+.phoenix-text{color: var(--phoenix-color) !important}
+.yellow-text{color: var(--yellow-color) !important}
+.green-text{color: var(--green-color) !important}
+.purple-text{color: var(--purple-color) !important}
+.aqua-text{color: var(--aqua-color) !important}
+.sky-text{color: var(--sky-color) !important}
 
-[data-theme = "aqua"] .theme-reverse{
-    background-color: #eef0f2 !important;
-    color: #101c29 !important;
+.dark-background{background-color: var(--dark-color) !important}
+.light-background{background-color: var(--light-color) !important}
+.black-background{background-color: var(--black-color) !important}
+.white-background{background-color: var(--white-color) !important}
+.blue-background{background-color: var(--blue-color) !important}
+.phoenix-background{background-color: var(--red-color) !important}
+.yellow-background{background-color: var(--yellow-color) !important}
+.green-background{background-color:  var(--green-color) !important}
+.purple-background{background-color: var(--purple-color) !important}
+.aqua-background{background-color: var(--aqua-color) !important }
+.sky-background{background-color: var(--sky-color) !important}
+
+[data-theme = "aqua"] .theme-reverse, [data-theme = "phoenix"] .theme-reverse, [data-theme = "sky"] .theme-reverse{
+    background-color: var(--light-color) !important;
+    color: var(--dark-color) !important;
 }
 [data-theme = "aqua"] .theme-adjust{
-    background-color: #33ff0a !important;
-    color: #eef0f2 !important;
+    background-color: var(--aqua-color) !important;
+    color: var(--light-color) !important;
+}
+[data-theme = "phoenix"] .theme-adjust{
+    background-color: var(--phoenix-color) !important;
+    color: var(--light-color) !important;
+}
+[data-theme = "sky"] .theme-adjust{
+    background-color: var(--sky-color) !important;
+    color: var(--light-color) !important
 }
 
 [data-theme = "dark"] .theme-adjust, [data-theme = "light"] .theme-reverse{
-    background-color: #101c29 !important;
-    color: #eef0f2 !important
+    background-color: var(--dark-color) !important;
+    color: var(--light-color) !important
 }
 [data-theme = "light"] .theme-adjust, [data-theme = "dark"] .theme-reverse{
-    background-color: #eef0f2 !important;
-    color: #101c29 !important
+    background-color: var(--light-color) !important;
+    color: var(--dark-color) !important
 }
