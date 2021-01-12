@@ -55,6 +55,9 @@
 .white-text {
   color: var(--white-color) !important; }
 
+.red-text {
+  color: var(--red-color) !important; }
+
 .blue-text {
   color: var(--blue-color) !important; }
 
@@ -115,7 +118,7 @@
 .teal-background {
   background-color: var(--teal-color) !important; }
 
-[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse {
+[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse, [data-theme="indigo"] .theme-reverse, [data-theme="teal"] .theme-reverse {
   background-color: var(--light-color) !important;
   color: var(--dark-color) !important; }
 
@@ -140,7 +143,7 @@
   background-color: var(--teal-color) !important;
   color: var(--white-color) !important;
   transition: 0.8s; }
-
+  
 [data-theme="dark"] .theme-adjust, [data-theme="light"] .theme-reverse {
   background-color: var(--dark-color) !important;
   color: var(--light-color) !important; }

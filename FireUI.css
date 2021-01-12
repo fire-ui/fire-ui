@@ -507,6 +507,9 @@ body {
 .white-text {
   color: var(--white-color) !important; }
 
+.red-text {
+  color: var(--red-color) !important; }
+
 .blue-text {
   color: var(--blue-color) !important; }
 
@@ -567,7 +570,7 @@ body {
 .teal-background {
   background-color: var(--teal-color) !important; }
 
-[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse {
+[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse, [data-theme="indigo"] .theme-reverse, [data-theme="teal"] .theme-reverse {
   background-color: var(--light-color) !important;
   color: var(--dark-color) !important; }
 
