@@ -140,7 +140,7 @@
   background-color: var(--teal-color) !important;
   color: var(--white-color) !important;
   transition: 0.8s; }
-  
+
 [data-theme="dark"] .theme-adjust, [data-theme="light"] .theme-reverse {
   background-color: var(--dark-color) !important;
   color: var(--light-color) !important; }
