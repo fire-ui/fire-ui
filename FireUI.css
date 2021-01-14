@@ -457,7 +457,6 @@ body {
   --black-color: #000;
   --white-color: #fff;
   --blue-color: #04d7de;
-  --red-color: #eb2421;
   --yellow-color: #FDCD49;
   --green-color: #2FDA90;
   --aqua-color: #0070f3;
@@ -506,9 +505,6 @@ body {
 
 .white-text {
   color: var(--white-color) !important; }
-
-.red-text {
-  color: var(--red-color) !important; }
 
 .blue-text {
   color: var(--blue-color) !important; }
