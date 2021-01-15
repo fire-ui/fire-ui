@@ -5,7 +5,6 @@
   --black-color: #000;
   --white-color: #fff;
   --blue-color: #04d7de;
-  --red-color: #eb2421;
   --yellow-color: #FDCD49;
   --green-color: #2FDA90;
   --aqua-color: #0070f3;
@@ -115,9 +114,6 @@
 .teal-background {
   background-color: var(--teal-color) !important; }
 
-[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse {
-  background-color: var(--light-color) !important;
-  color: var(--dark-color) !important; }
 
 [data-theme="aqua"] .theme-adjust {
   background-color: var(--aqua-color) !important;
@@ -140,7 +136,6 @@
   background-color: var(--teal-color) !important;
   color: var(--white-color) !important;
   transition: 0.8s; }
-  
 [data-theme="dark"] .theme-adjust, [data-theme="light"] .theme-reverse {
   background-color: var(--dark-color) !important;
   color: var(--light-color) !important; }
