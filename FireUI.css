@@ -566,6 +566,9 @@ body {
 .teal-background {
   background-color: var(--teal-color) !important; }
 
+[data-theme="aqua"] .theme-reverse, [data-theme="phoenix"] .theme-reverse, [data-theme="sky"] .theme-reverse, [data-theme="indigo"] .theme-reverse, [data-theme="teal"] .theme-reverse {
+  background-color: var(--light-color) !important;
+  color: var(--dark-color) !important; }
 
 [data-theme="aqua"] .theme-adjust {
   background-color: var(--aqua-color) !important;
