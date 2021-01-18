@@ -27,18 +27,6 @@ this website https://www.npmjs.com/package/minify.
     font-family: "Work";
     src: url("./src/fonts/Work/WorkSans-Medium.ttf")format("truetype");
 }
-:root{
-    /* Colors */
-    --dark-color: #101c29;
-    --light-color: #eef0f2;
-    --black-color: #000;
-    --white-color: #fff;
-    --blue-color: #04d7de;
-    --red-color: #eb2421;
-    --yellow-color: #FDCD49;
-    --green-color: #2FDA90;
-    --purple-color: #57038f;
-}
 html{
     -ms-overflow-style: auto;
 }
@@ -84,6 +72,9 @@ body{
 /* Code */
 @import "./src/feature/Code/code.scss";
 /* Code */
+/* Marquee */
+@import "./src/feature/Marquee/marquee.scss";
+/* Marquee */
 /* Modal */
 @import "./src/feature/Modal/modal.scss";
 /* Modal */
@@ -99,5 +90,3 @@ body{
 /* Accordion */
 @import "./src/feature/Accordion/accordion.scss";
 /* Accordion */
-
-

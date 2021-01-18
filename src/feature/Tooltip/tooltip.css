@@ -1,11 +1,11 @@
 [data-theme="light"] .tooltip-data {
-  background-color: var(--dark-color) !important;
-  color: var(--white-color) !important;
+  background-color: #101c29 !important;
+  color: #fff !important;
   transition: 0.4; }
 
 [data-theme="dark"] .tooltip-data {
-  color: var(--black-color) !important;
-  background-color: var(--light-color) !important; }
+  color: #000 !important;
+  background-color: #eef0f2 !important; }
 
 .tooltip {
   display: inline-block;

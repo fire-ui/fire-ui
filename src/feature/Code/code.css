@@ -4,54 +4,63 @@ code {
   font-family: "Work";
   padding: 0.2rem;
   line-height: 1.2rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: #eef0f2;
+  color: #101c29; }
 
 pre {
   padding: 0.5rem;
   font-family: "Work";
   tab-size: 4;
   overflow: auto;
+  position: relative;
   transition: .5s;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: #eef0f2;
+  color: #101c29; }
 
 body[data-theme="light"] pre, body[data-theme="light"] code {
-  background-color: var(--dark-color);
-  color: var(--light-color); }
-
-body[data-theme="dark"] pre, body[data-theme="dark"] code {
-  background-color: var(--light-color);
-  color: var(--dark-color); }
+  background-color: #101c29 !important;
+  color: #eef0f2 !important; }
 
 pre .code-copyBtn {
-  display: block;
+  display: none;
   text-align: center;
   border-radius: 25px;
   border-style: solid;
-  position: relative;
-  float: right;
+  position: absolute;
+  left: 20px;
   outline: none;
   cursor: pointer;
   padding: 5px 10px;
   transition: ease-in-out .3s;
   z-index: 100;
-}
+  border-color: #101c29;
+  background-color: #eef0f2;
+  color: #101c29; }
 
-pre[data-copyable="false"]{
+pre .code-copyBtn:hover {
+  border-color: #eef0f2;
+  background-color: #101c29;
+  color: #eef0f2; }
+
+pre:hover .code-copyBtn {
+  display: block; }
+
+pre[data-copyable="false"] {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-}
+  user-select: none; }
 
-body[data-theme="dark"] .code-copyBtn, body[data-theme="light"] .code-copyBtn:hover {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--black-color);
-}
-body[data-theme="light"] .code-copyBtn, body[data-theme="dark"] .code-copyBtn:hover {
-  border-color: var(--light-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
+body[data-theme="light"] .code-copyBtn {
+  border-color: #eef0f2;
+  background-color: #101c29;
+  color: #eef0f2; }
+
+body[data-theme="light"] .code-copyBtn:hover {
+  border-color: #101c29;
+  background-color: #eef0f2;
+  color: #101c29; }
