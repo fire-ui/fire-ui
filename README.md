@@ -3,6 +3,8 @@
 
 [![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/issues) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/network/members) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/stargazers) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui?style=for-the-badge)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE) 
 
+![non version](https://img.shields.io/badge/dynamic/json?color=317EFB&logo=npm&style=for-the-badge&label=Version&query=version&url=https%3A%2F%2Funpkg.com%2F%40fire-ui%2Ffire-ui%40latest%2Fpackage.json)
+
 [![jsDelivr stats](https://data.jsdelivr.com/v1/package/npm/@fire-ui/fire-ui/badge)](https://www.jsdelivr.com/package/npm/@fire-ui/fire-ui) [![Netlify Status](https://api.netlify.com/api/v1/badges/815d04b3-fe67-4706-98ef-7173b24c68b1/deploy-status)](https://app.netlify.com/sites/fire-ui/deploys)
 
 [![NPM](https://nodei.co/npm/@fire-ui/fire-ui.png?mini=true)](https://npmjs.org/package/@fire-ui/fire-ui)
@@ -44,4 +46,4 @@ For the Code of Conduct, please visit [CODE_OF_CONDUCT.md](https://github.com/fi
 [![Forkers repo roster for @fire-ui/fire-ui](https://reporoster.com/forks/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/network/members)
 
 ## LICENSE
-[![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
+[![MIT](https://img.shields.io/github/license/fire-ui/fire-ui?style=for-the-badge)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE)
