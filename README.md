@@ -1,7 +1,7 @@
 # Fire UI
 > The framework contains everything that is frequently used on the frontend.
 
-[![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/issues) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/network/members) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/stargazers) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE) 
+[![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/issues) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/network/members) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/stargazers) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui?style=for-the-badge)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE) 
 
 [![jsDelivr stats](https://data.jsdelivr.com/v1/package/npm/@fire-ui/fire-ui/badge)](https://www.jsdelivr.com/package/npm/@fire-ui/fire-ui) [![Netlify Status](https://api.netlify.com/api/v1/badges/815d04b3-fe67-4706-98ef-7173b24c68b1/deploy-status)](https://app.netlify.com/sites/fire-ui/deploys)
 
