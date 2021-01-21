@@ -40,4 +40,39 @@ input[type = checkbox]:hover{
     opacity: .7;
     transform: scale(1.25);
 }
+
+input[type=radio]{
+    width: 16px;
+    height: 16px;
+    transition: all .4s;
+}
   
+input[type=radio]:checked {
+    -webkit-animation:radio-animate .25s ease-out;
+    animation:radio-animate .25s ease-out
+}
+  
+input[type=radio]:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+  
+@keyframes radio-animate{
+    0%{
+        opacity:.4;
+        -webkit-transform:scale(3);
+        transform:scale(3);
+    }
+    10%{
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+    90%{
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    100%{
+        -webkit-transform:none;
+        transform:none;
+    }
+}
