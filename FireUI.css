@@ -799,6 +799,38 @@ input[type=radio]:hover {
   cursor: pointer;
   transform: scale(1.2); }
 
+.toggle-switch input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden; }
+
+.toggle-animation {
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  background-color: grey;
+  display: block;
+  border-radius: 5px;
+  position: relative; }
+
+.toggle-animation::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: 0.3s; }
+
+.toggle-switch input[type=checkbox]:checked + .toggle-animation {
+  background-color: #bada55; }
+
+.toggle-switch input[type=checkbox]:checked + .toggle-animation::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%); }
+
 @keyframes radio-animate {
   0% {
     opacity: .4;

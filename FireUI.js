@@ -126,6 +126,13 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementsByTagName('marquee')[x].setAttribute('scrollamount', speed);
         }
     }
+    document.querySelectorAll(".toggle-switch").forEach(toggle => {
+        // Create a new element inside toggle input
+        let element = document.createElement('label')
+        element.classList.add('toggle-animation')
+        element.setAttribute("for", toggle.querySelector("input[type=checkbox]")?.getAttribute('id'))
+        toggle.appendChild(element)
+    })
 })
 var defaultIndex = 1;
 activeSlide(defaultIndex);
