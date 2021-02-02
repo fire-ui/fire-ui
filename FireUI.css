@@ -1306,3 +1306,26 @@ tr, th {
   border: 1px solid #bfbfbf; }
 
 /* Accordion */
+/* Card */
+.card {
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  margin: 10px 0; }
+
+.card img {
+  margin: 0px 15px;
+  width: calc(100% - 30px); }
+
+.card:hover {
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2); }
+
+.card-info {
+  padding: 2px 14px;
+  text-align: justify; }
+
+.card-title {
+  text-align: center;
+  border-bottom: 1px solid #eef0f2;
+  margin: 15px 0 5px 0; }
+
+/* Card */
