@@ -6,7 +6,8 @@ code {
   line-height: 1.2rem;
   border-radius: 5px;
   background-color: #eef0f2;
-  color: #101c29; }
+  color: #101c29;
+  line-height: 1.2; }
 
 pre {
   padding: 0.5rem;

@@ -997,7 +997,8 @@ code {
   line-height: 1.2rem;
   border-radius: 5px;
   background-color: #eef0f2;
-  color: #101c29; }
+  color: #101c29;
+  line-height: 1.2; }
 
 pre {
   padding: 0.5rem;
@@ -1160,7 +1161,7 @@ marquee {
   right: 105% !important; }
 
 .tooltip-bottom {
-  width: 120px !important;
+  width: auto !important;
   top: 100% !important;
   left: 50% !important;
   margin-left: -60px !important; }
