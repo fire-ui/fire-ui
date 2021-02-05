@@ -715,9 +715,11 @@ body {
   cursor: pointer; }
 
 .btn:hover {
-  box-shadow: 5px 2px 8px;
   transition: 0.4s;
   transition-timing-function: ease-out; }
+
+.btn-hover:hover {
+  box-shadow: 5px 2px 8px; }
 
 .btn:active {
   box-shadow: 5px 2px 8px;
