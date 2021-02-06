@@ -47,6 +47,35 @@ input[type=radio]:hover {
   cursor: pointer;
   transform: scale(1.2); }
 
+.form-animate {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.input-animate {
+    width: -webkit-fill-available;
+    border: none;
+    display: inline-block;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+.input-onFocus {
+  transition: all 0.5s;
+  display: inline-block;
+  bottom: 0;
+  left: -100%;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #1a73e8;
+}
+
+.form-animate .input-animate:focus + .input-onFocus { left: 0; }
+
 .toggle-switch input[type=checkbox] {
   height: 0;
   width: 0;
