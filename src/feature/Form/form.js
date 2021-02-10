@@ -12,4 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
         element.setAttribute("for", toggle.querySelector("input[type=checkbox]").getAttribute('id'));
         toggle.appendChild(element);
     })
+    document.querySelectorAll(".form-animate").forEach(form => {
+        let element = document.createElement("span");
+        element.classList.add('input-onFocus');
+        form.appendChild(element)
+    })
 })

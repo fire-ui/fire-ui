@@ -72,6 +72,9 @@ input[type=radio]:hover {
   height: 2px;
   background: #1a73e8; }
 
+.form-animate, .input-animate {
+  color: inherit; }
+
 .form-animate .input-animate:focus + .input-onFocus {
   left: 0; }
 

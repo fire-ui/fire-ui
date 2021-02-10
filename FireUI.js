@@ -130,8 +130,13 @@ document.addEventListener("DOMContentLoaded", () => {
         // Create a new element inside toggle input
         let element = document.createElement('label')
         element.classList.add('toggle-animation')
-        element.setAttribute("for", toggle.querySelector("input[type=checkbox]")?.getAttribute('id'))
+        if(toggle.querySelector("input[type=checkbox]")) element.setAttribute("for", toggle.querySelector("input[type=checkbox]").getAttribute('id'))
         toggle.appendChild(element)
+    })
+    document.querySelectorAll(".form-animate").forEach(form => {
+        let element = document.createElement("span");
+        element.classList.add('input-onFocus');
+        form.appendChild(element)
     })
 })
 var defaultIndex = 1;
