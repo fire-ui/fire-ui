@@ -1,0 +1,1 @@
+.dropdown{position:relative;display:inline-block}.dropdown-content{display:none;position:absolute;box-shadow:1px 1px 8px 2px;padding:4px 3px;z-index:1}.dropdown-right{left:auto!important;right:0!important}.dropdown:hover .dropdown-content{display:block}
