@@ -138,6 +138,10 @@ document.addEventListener("DOMContentLoaded", () => {
         element.classList.add('input-onFocus');
         form.appendChild(element)
     })
+    document.querySelectorAll(".marquee").forEach(marquee => {
+		let direction = marquee.dataset.direction === "up" || marquee.dataset.direction === "down" ? "vertical" : "horizontal";
+		if(marquee.dataset.speed) marquee.querySelector('.marquee-content').style.animation = `marquee-${direction} ${marquee.dataset.speed}s linear infinite`;
+	})
 })
 var defaultIndex = 1;
 activeSlide(defaultIndex);
