@@ -9,4 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			document.getElementsByTagName('marquee')[x].setAttribute('scrollamount', speed);
 		}
 	}
+	document.querySelectorAll(".marquee").forEach(marquee => {
+		let direction = marquee.dataset.direction === "up" || marquee.dataset.direction === "down" ? "vertical" : "horizontal";
+		if(marquee.dataset.speed) marquee.querySelector('.marquee-content').style.animation = `marquee-${direction} ${marquee.dataset.speed}s linear infinite`;
+	})
 })
