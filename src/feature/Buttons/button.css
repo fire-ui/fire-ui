@@ -43,3 +43,14 @@
   background-color: #e4ad15;
   color: #eef0f2;
   text-shadow: 2px 2px 5px black; }
+
+.btn-large {
+  padding: 10px; }
+
+.btn-large {
+  padding: 20px!important;
+  font-size: 20px; }
+
+.btn-small {
+  padding: 10px!important;
+  font-size: 10px; }
