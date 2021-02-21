@@ -457,8 +457,8 @@ body {
   --black-color: #000;
   --white-color: #fff;
   --blue-color: #04d7de;
-  --yellow-color: #FDCD49;
-  --green-color: #2FDA90;
+  --yellow-color: #fdcd49;
+  --green-color: #2fda90;
   --aqua-color: #0070f3;
   --phoenix-color: #ee2224;
   --sky-color: #673ab7;
@@ -599,6 +599,66 @@ body {
 [data-theme="light"] .theme-adjust, [data-theme="dark"] .theme-reverse {
   background-color: var(--light-color) !important;
   color: var(--dark-color) !important; }
+
+.violet-gradient-text {
+  --start-color: #e44b9d;
+  --end-color: #2e21ac; }
+
+.teal-gradient-text {
+  --start-color: #79cea4;
+  --end-color: #295c98; }
+
+.gold-gradient-text {
+  --start-color: #ff7170;
+  --end-color: #dec45d; }
+
+.emerald-gradient-text {
+  --start-color: #1a3814;
+  --end-color: #70ff88; }
+
+.violet-gradient-text, .teal-gradient-text, .gold-gradient-text, .emerald-gradient-text {
+  background: -webkit-linear-gradient(-70deg, var(--start-color), var(--end-color));
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent; }
+
+.gradient-animation {
+  -webkit-animation: hue 5s infinite linear; }
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg); }
+  to {
+    filter: hue-rotate(-360deg); } }
+
+.neon-text {
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  text-transform: uppercase;
+  animation: 1s ease infinite reverse glow; }
+
+.neon-text:before {
+  content: attr(data-text);
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px); }
+
+.neon-text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply; }
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0; }
+  75% {
+    text-shadow: 0 0 16px;
+    filter: brightness(300%); } }
 
 /* Colors and theme*/
 /* Grid System */
