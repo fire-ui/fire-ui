@@ -164,7 +164,43 @@
   --start-color: #1a3814;
   --end-color: #70ff88; }
 
-.violet-gradient-text, .teal-gradient-text, .gold-gradient-text, .emerald-gradient-text {
+.winter-neva-gradient-text {
+  --start-color: #a1c4fd;
+  --end-color: #c2e9fb; }
+
+.premium-dark-gradient-text {
+  --start-color: #434343;
+  --end-color: #000000; }
+
+.everlasting-sky-gradient-text {
+  --start-color: #fdfcfb;
+  --end-color: #e2d1c3; }
+
+.nega-gradient-text {
+  --start-color: #ee9ca7;
+  --end-color: #ffdde1; }
+
+.mauve-gradient-text {
+  --start-color: #42275a;
+  --end-color: #734b6d; }
+
+.virgin-america-gradient-text {
+  --start-color: #7b4397;
+  --end-color: #dc2430; }
+
+.endless-river-gradient-text {
+  --start-color: #43cea2;
+  --end-color: #185a9d; }
+
+.celestial-gradient-text {
+  --start-color: #c33764;
+  --end-color: #1d2671; }
+
+.royal-gradient-text {
+  --start-color: #141e30;
+  --end-color: #243b55; }
+
+.violet-gradient-text, .teal-gradient-text, .gold-gradient-text, .emerald-gradient-text, .winter-neva-gradient-text, .premium-dark-gradient-text, .everlasting-sky-gradient-text, .nega-gradient-text, .mauve-gradient-text, .endless-river-gradient-text, .virgin-america-gradient-text, .celestial-gradient-text, .royal-gradient-text {
   background: -webkit-linear-gradient(-70deg, var(--start-color), var(--end-color));
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent; }
