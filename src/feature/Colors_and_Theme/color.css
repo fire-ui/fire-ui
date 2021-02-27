@@ -130,12 +130,12 @@
   background-color: var(--sky-color) !important;
   color: var(--light-color) !important; }
 
-[data-theme="indigo"], .theme-adjust {
+[data-theme="indigo"] .theme-adjust {
   background-color: var(--indigo-color) !important;
   color: var(--white-color) !important;
   transition: 0.8s; }
 
-[data-theme="teal"], .theme-adjust {
+[data-theme="teal"] .theme-adjust {
   background-color: var(--teal-color) !important;
   color: var(--white-color) !important;
   transition: 0.8s; }
