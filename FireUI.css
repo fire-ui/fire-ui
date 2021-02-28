@@ -1499,9 +1499,10 @@ tr, th {
 /* Accordion */
 /* Card */
 .card {
-  box-shadow: 7px 5px 9px 5px;
+  box-shadow: 7px 5px 9px 5px #808080;
   transition: 0.4s;
   margin: 10px 0;
+  padding: 0 5px;
   border-radius: 5px; }
 
 .card img {
