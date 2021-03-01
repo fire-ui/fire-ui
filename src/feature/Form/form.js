@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
             textarea.style.height = "5px";
             textarea.style.height = textarea.scrollHeight + 'px';
         })
+        textarea.style.height = textarea.scrollHeight + parseInt(getComputedStyle(textarea).paddingTop) +parseInt(getComputedStyle(textarea).paddingBottom) + 'px';
     })
     document.querySelectorAll(".toggle-switch").forEach(toggle => {
         // Create a new element inside toggle input
