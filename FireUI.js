@@ -134,10 +134,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if(toggle.querySelector("input[type=checkbox]")) element.setAttribute("for", toggle.querySelector("input[type=checkbox]").getAttribute('id'))
         toggle.appendChild(element)
     })
-    document.querySelectorAll(".form-animate").forEach(form => {
+    document.querySelectorAll(".input-animate").forEach(input => {
+        let form = input.parentNode;
+        form.classList.add('form-animate')
         let element = document.createElement("span");
         element.classList.add('input-onFocus');
-        form.appendChild(element)
+        if(!form.querySelector(".input-onFocus"))form.insertBefore(element, input.nextSibling)
     })
     document.querySelectorAll(".marquee").forEach(marquee => {
 		let direction = marquee.dataset.direction === "up" || marquee.dataset.direction === "down" ? "vertical" : "horizontal";
