@@ -114,6 +114,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.execCommand('copy');
                 document.body.removeChild(textarea);
                 copyBtn.innerText = "Copied";
+                document.addEventListener('copy', () => {
+                    copyBtn.innerText = "Copy";
+                })
             })
         }
     })
