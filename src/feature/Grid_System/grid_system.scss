@@ -22,6 +22,17 @@
 .col-10, .col-ex-10 {width: 83.33%;}
 .col-11, .col-ex-11 {width: 91.66%;}
 .col-12, .col-ex-1 {width: 100%;}
+
+.masonry {
+    margin: 1.5em auto;
+    column-gap: 1.5em;
+}
+  
+.masonry-item {
+    padding: 1em;
+    margin: 0 0 1.5em;
+}
+
 @media only screen and (min-width: 600px){
     .container{
         width: 550px;
@@ -35,6 +46,11 @@
 @media only screen and (min-width: 768px){
     .container{
         width: 730px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+        column-count: 2;
     }
 }
 @media only screen and (max-width: 768px){
@@ -55,6 +71,18 @@
 @media only screen and (min-width: 992px){
     .container{
         width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        column-count: 4;
     }
 }
 
