@@ -1,0 +1,17 @@
+img {
+  width: inherit; }
+
+.image-shadow {
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc; }
+
+.image-rounded-corner {
+  border-radius: 1rem; }
+
+.image-rounded {
+  border-radius: 50%; }
+
+.image-frame {
+  border: 5px solid #ccc; }
