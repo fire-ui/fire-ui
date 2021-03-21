@@ -1,9 +1,7 @@
 // Wait the DOM to be loaded
 document.addEventListener("DOMContentLoaded", () => {
     // Set the website theme color according to the latest user preference saved in localStorage
-    if(localStorage.getItem('theme-color')){
-        document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
-    }
+    document.body.setAttribute('data-theme', localStorage.getItem('theme-color') || 'light')
     // Searching all attributes with switch-theme attribute
     document.querySelectorAll("[data-switch-theme]").forEach(btn => {
         btn.addEventListener("click", () => {
