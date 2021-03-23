@@ -8,6 +8,7 @@
   .form-control {
     border: 1px solid #bfbfbf;
     width: -webkit-fill-available;
+    width: -moz-available;
     border-radius: 5px;
     padding: 8px;
     font-family: "Noto"; }
@@ -54,6 +55,7 @@
   }
   .input-animate {
       width: -webkit-fill-available;
+      width: -moz-available;
       border: none;
       display: inline-block;
       outline: none;

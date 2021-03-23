@@ -94,6 +94,7 @@
   display: block;
   border: none;
   width: -webkit-fill-available;
+  width: -moz-available;
   overflow: auto;
   text-align: left;
   cursor: pointer;
@@ -134,6 +135,7 @@
   .main-page {
     margin-left: 0; }
   .topnav-list .topnav-item {
-    width: -webkit-fill-available; }
+    width: -webkit-fill-available;
+    width: -moz-available; }
   .topnav-hamburger-menu {
     display: block; } }

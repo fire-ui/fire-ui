@@ -100,6 +100,7 @@
     display: block;
     border: none;
     width: -webkit-fill-available;
+    width: -moz-available;
     overflow: auto;
     text-align: left;
     cursor: pointer;
@@ -150,6 +151,7 @@
     }
     .topnav-list .topnav-item{
         width: -webkit-fill-available;
+        width: -moz-available;
     }
     .topnav-hamburger-menu{
         display: block;

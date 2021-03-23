@@ -802,7 +802,8 @@ body {
   padding: 10px;
   border: 1px solid #999;
   border-radius: 5px;
-  width: -webkit-fill-available; }
+  width: -webkit-fill-available;
+  width: moz-available; }
 
 .box-shadow {
   box-shadow: 3px 5px 11px; }
@@ -889,6 +890,7 @@ body {
 .form-control {
   border: 1px solid #bfbfbf;
   width: -webkit-fill-available;
+  width: -moz-available;
   border-radius: 5px;
   padding: 8px;
   font-family: "Noto"; }
@@ -935,6 +937,7 @@ input[type=radio]:hover {
 
 .input-animate {
   width: -webkit-fill-available;
+  width: -moz-available;
   border: none;
   display: inline-block;
   outline: none;
@@ -1103,6 +1106,7 @@ input[type=radio]:hover {
   display: block;
   border: none;
   width: -webkit-fill-available;
+  width: -moz-available;
   overflow: auto;
   text-align: left;
   cursor: pointer;
@@ -1143,7 +1147,8 @@ input[type=radio]:hover {
   .main-page {
     margin-left: 0; }
   .topnav-list .topnav-item {
-    width: -webkit-fill-available; }
+    width: -webkit-fill-available;
+    width: -moz-available; }
   .topnav-hamburger-menu {
     display: block; } }
 
@@ -1490,6 +1495,7 @@ tr, th {
   cursor: pointer;
   padding: 18px;
   width: -webkit-fill-available;
+  width: -moz-available;
   outline: none;
   border: none;
   text-align: left;
