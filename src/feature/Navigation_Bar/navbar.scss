@@ -34,6 +34,7 @@
     float: right;
     font-size: 1.3rem;
     display: none;
+    cursor: pointer;
 }
 
 .sidenav{
@@ -52,12 +53,14 @@
 .sidenav-content{
     font-family: "Roboto";
     margin: 20px;
+    color: inherit;
 }
 
 .sidenav-title{
     font-size: 1.6rem;
     font-family: "Work";
     cursor: pointer;
+    color: inherit;
 }
 
 .sidenav .sidenav-item{
