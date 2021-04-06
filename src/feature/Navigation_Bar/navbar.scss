@@ -84,7 +84,7 @@
     cursor: pointer;
 }
 .fixed-sidenav{
-    height: 100%;
+    height: calc(100% - 80px);
     width: 200px;
     overflow: auto;
     position: fixed;
