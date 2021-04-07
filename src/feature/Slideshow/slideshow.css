@@ -59,7 +59,8 @@
   background-color: rgba(0, 0, 0, 0.8); }
 
 .slideshow-info {
-  text-align: center; }
+  text-align: center;
+  margin: 1rem 0 2rem 0; }
 
 .slideshow-dot {
   display: inline-block;

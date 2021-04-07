@@ -18,3 +18,9 @@ function activeSlide(n) {
   if(slides[defaultIndex - 1]) slides[defaultIndex-1].classList.toggle("slideshow-none");
   if(info[defaultIndex - 1]) info[defaultIndex-1].className += " slideshow-active";
 }
+
+document.querySelectorAll(".slideshow-container").forEach(slideshow => {
+  slideshow.querySelectorAll(".slideshow").forEach(sl => {
+      if(sl !== slideshow.querySelector(".slideshow")) sl.classList.add("slideshow-none") // Add slideshow-none class name if it is not the first type of element
+  })
+})

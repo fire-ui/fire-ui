@@ -155,6 +155,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		let direction = marquee.dataset.direction === "up" || marquee.dataset.direction === "down" ? "vertical" : "horizontal";
 		if(marquee.dataset.speed) marquee.querySelector('.marquee-content').style.animation = `marquee-${direction} ${marquee.dataset.speed}s linear infinite`;
 	})
+    document.querySelectorAll(".slideshow-container").forEach(slideshow => {
+        slideshow.querySelectorAll(".slideshow").forEach(sl => {
+            if(sl !== slideshow.querySelector(".slideshow")) sl.classList.add("slideshow-none") // Add slideshow-none class name if it is not the first type of element
+        })
+    })
 })
 var defaultIndex = 1;
 activeSlide(defaultIndex);
