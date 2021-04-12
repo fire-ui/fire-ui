@@ -20,7 +20,7 @@
   font-size: 1.2rem; }
 
 .accordion:hover {
-  opacity: .7; }
+  opacity: 0.7; }
 
 .accordion-panel {
   max-height: 0;

@@ -26,7 +26,7 @@
   color: inherit; }
 
 .topnav .topnav-item:hover {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .topnav-right {
   float: right; }
@@ -69,7 +69,7 @@
   cursor: pointer; }
 
 .sidenav .sidenav-item:hover {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .sidenav .sidenav-close-btn {
   position: absolute;
@@ -90,7 +90,8 @@
   z-index: 7;
   box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.5); }
 
-.fixed-sidenav-item, .fixed-sidenav-dropdown-btn {
+.fixed-sidenav-item,
+.fixed-sidenav-dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 1.1rem;
@@ -105,7 +106,7 @@
   outline: none; }
 
 .fixed-sidenav-item:hover {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .fixed-sidenav-dropdown-content {
   display: none;

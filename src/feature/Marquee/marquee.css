@@ -1,6 +1,6 @@
 marquee {
   font-size: 20px;
-  transition: all .4s;
+  transition: all 0.4s;
   margin: 10px 5px; }
 
 .marquee {
@@ -15,15 +15,14 @@ marquee {
 
 .marquee[data-direction="up"] {
   --move-initial: 100%;
-  --move-final: -100%
-; }
+  --move-final: -100%; }
 
 .marquee[data-direction="down"] {
   --move-initial: -100%;
-  --move-final: 100%
-; }
+  --move-final: 100%; }
 
-.marquee[data-direction="up"] .marquee-content, .marquee[data-direction="down"] .marquee-content {
+.marquee[data-direction="up"] .marquee-content,
+.marquee[data-direction="down"] .marquee-content {
   animation: marquee-vertical 2.5s linear infinite; }
 
 .marquee-content {

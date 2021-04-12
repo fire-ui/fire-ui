@@ -13,7 +13,7 @@
   transition: 0.3s; }
 
 .tab-btn:hover {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .tab-content {
   display: none;

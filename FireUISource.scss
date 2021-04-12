@@ -15,26 +15,26 @@ if you want to change another file use instructions from
 this website https://www.npmjs.com/package/minify.
 
 */
-@font-face{
-    font-family: "Roboto";
-    src: url("./src/fonts/Roboto/Roboto-Regular.ttf")format('truetype');
+@font-face {
+  font-family: "Roboto";
+  src: url("./src/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
-@font-face{
-    font-family: "Noto";
-    src: url("./src/fonts/Noto/NotoSans-Regular.ttf")format("truetype");
+@font-face {
+  font-family: "Noto";
+  src: url("./src/fonts/Noto/NotoSans-Regular.ttf") format("truetype");
 }
-@font-face{
-    font-family: "Work";
-    src: url("./src/fonts/Work/WorkSans-Medium.ttf")format("truetype");
+@font-face {
+  font-family: "Work";
+  src: url("./src/fonts/Work/WorkSans-Medium.ttf") format("truetype");
 }
-html{
-    -ms-overflow-style: auto;
+html {
+  -ms-overflow-style: auto;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", "Noto", "Work";
-    scroll-behavior: smooth;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Noto", "Work";
+  scroll-behavior: smooth;
 }
 
 /* Spacing */

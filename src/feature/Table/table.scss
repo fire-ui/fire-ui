@@ -1,51 +1,54 @@
-table{
-    padding: 5px;
-    overflow-x: auto;
-    box-shadow: 3px 3px 6px -1px;
-    border-radius: 5px;
+table {
+  padding: 5px;
+  overflow-x: auto;
+  box-shadow: 3px 3px 6px -1px;
+  border-radius: 5px;
 }
 
-thead{
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.4rem;
-    font-family: "Work";
+thead {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Work";
 }
 
 tbody {
-    padding: 20px;
-    font-family: "Noto";
+  padding: 20px;
+  font-family: "Noto";
 }
 
-tr, th{
-    padding: 8px 7px;
+tr,
+th {
+  padding: 8px 7px;
 }
 
-.table-full-width{
-    width: 100%;
+.table-full-width {
+  width: 100%;
 }
 
-.table-fixed-width{
-    overflow-x: auto;
+.table-fixed-width {
+  overflow-x: auto;
 }
 
-.table-fixed-width tr{
-    width: auto;
+.table-fixed-width tr {
+  width: auto;
 }
-.table-fixed-width tr{
-    width: auto;
-}
-
-.table-fixed-width td{
-    min-width: 80px;
+.table-fixed-width tr {
+  width: auto;
 }
 
-.table-border{
-    border-collapse: collapse;
-    padding: 10px;
+.table-fixed-width td {
+  min-width: 80px;
 }
 
-.table-border tr, .table-border th, .table-border td{
-    border: 1px solid #999;
-    padding: 5px;
+.table-border {
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.table-border tr,
+.table-border th,
+.table-border td {
+  border: 1px solid #999;
+  padding: 5px;
 }

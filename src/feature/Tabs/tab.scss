@@ -1,24 +1,24 @@
-.tab{
-    overflow: auto;
+.tab {
+  overflow: auto;
 }
-.tab-btn{
-    padding: 8px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Noto", "Work";
-    outline: none;
-    border: none;
-    float: left;
-    cursor: pointer;
-    transition: 0.3s;
+.tab-btn {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Noto", "Work";
+  outline: none;
+  border: none;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.tab-btn:hover{
-    opacity: .8;
+.tab-btn:hover {
+  opacity: 0.8;
 }
-.tab-content{
-    display: none;
-    padding: 6px 12px;
+.tab-content {
+  display: none;
+  padding: 6px 12px;
 }
-.tab-content-active{
-    display: block;
+.tab-content-active {
+  display: block;
 }

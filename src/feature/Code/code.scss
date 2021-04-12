@@ -16,15 +16,16 @@ pre {
   tab-size: 4;
   overflow: auto;
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 5px;
   background-color: #eef0f2;
-  color: #101c29; 
+  color: #101c29;
 }
 
-body[data-theme="light"] pre, body[data-theme="light"] code {
+body[data-theme="light"] pre,
+body[data-theme="light"] code {
   background-color: #101c29 !important;
-  color: #eef0f2 !important; 
+  color: #eef0f2 !important;
 }
 
 pre .code-copyBtn {
@@ -37,25 +38,24 @@ pre .code-copyBtn {
   outline: none;
   cursor: pointer;
   padding: 5px 10px;
-  transition: ease-in-out .3s;
-  z-index: 100; 
+  transition: ease-in-out 0.3s;
+  z-index: 100;
   border-color: #101c29;
   background-color: #eef0f2;
   color: #101c29;
 }
 
-pre .code-copyBtn:hover{
+pre .code-copyBtn:hover {
   border-color: #eef0f2;
   background-color: #101c29;
   color: #eef0f2;
 }
 
-pre:hover .code-copyBtn{
+pre:hover .code-copyBtn {
   display: block;
 }
 
-  
-pre[data-copyable="false"]{
+pre[data-copyable="false"] {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -64,7 +64,7 @@ pre[data-copyable="false"]{
   user-select: none;
 }
 
-body[data-theme="light"] .code-copyBtn{
+body[data-theme="light"] .code-copyBtn {
   border-color: #eef0f2;
   background-color: #101c29;
   color: #eef0f2;

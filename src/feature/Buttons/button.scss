@@ -6,51 +6,63 @@
   text-decoration: none;
   font-size: 1rem;
   font-family: "Noto", "Work";
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .btn:hover {
   transition: 0.4s;
-  transition-timing-function: ease-out; }
+  transition-timing-function: ease-out;
+}
 
 .btn-hover:hover {
-  box-shadow: 5px 2px 8px; }
+  box-shadow: 5px 2px 8px;
+}
 
 .btn:active {
   box-shadow: 5px 2px 8px;
   transition: 0.3s;
   transition-timing-function: ease-in;
-  opacity: 0.5; }
+  opacity: 0.5;
+}
 
 .btn-dark {
   background-color: #101c29;
-  color: #eef0f2; }
+  color: #eef0f2;
+}
 
 .btn-light {
   background-color: #eef0f2;
-  color: #101c29; }
+  color: #101c29;
+}
 
 .btn-danger {
   background-color: #eb2421;
   color: #eef0f2;
-  text-shadow: 2px 2px 5px black; }
+  text-shadow: 2px 2px 5px black;
+}
 
 .btn-success {
   background-color: #0ac071;
   color: #eef0f2;
-  text-shadow: 2px 2px 5px black; }
+  text-shadow: 2px 2px 5px black;
+}
 
 .btn-warning {
   background-color: #e4ad15;
   color: #eef0f2;
-  text-shadow: 2px 2px 5px black; }
+  text-shadow: 2px 2px 5px black;
+}
 
 .btn-large {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .btn-large {
-  padding: 20px!important;
-  font-size: 20px; }
+  padding: 20px !important;
+  font-size: 20px;
+}
 
 .btn-small {
-  padding: 10px!important;
-  font-size: 10px; }
+  padding: 10px !important;
+  font-size: 10px;
+}

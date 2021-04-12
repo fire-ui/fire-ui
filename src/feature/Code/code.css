@@ -15,12 +15,13 @@ pre {
   tab-size: 4;
   overflow: auto;
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 5px;
   background-color: #eef0f2;
   color: #101c29; }
 
-body[data-theme="light"] pre, body[data-theme="light"] code {
+body[data-theme="light"] pre,
+body[data-theme="light"] code {
   background-color: #101c29 !important;
   color: #eef0f2 !important; }
 
@@ -34,7 +35,7 @@ pre .code-copyBtn {
   outline: none;
   cursor: pointer;
   padding: 5px 10px;
-  transition: ease-in-out .3s;
+  transition: ease-in-out 0.3s;
   z-index: 100;
   border-color: #101c29;
   background-color: #eef0f2;

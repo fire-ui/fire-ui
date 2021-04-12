@@ -40,7 +40,8 @@
   white-space: pre-line;
   text-align: justify; }
 
-.modal-close-btn:hover, .modal-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
   color: #e6e6e6; }
 
 @keyframes animatetop {
