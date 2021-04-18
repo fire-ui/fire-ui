@@ -42,3 +42,19 @@ th {
 .table-border td {
   border: 1px solid #999;
   padding: 5px; }
+
+.table-violet-gradient {
+  --start-color: #e44b9d;
+  --end-color: #2e21ac; }
+
+.table-winter-gradient {
+  --start-color: #6c9be8;
+  --end-color: #c2e9fb; }
+
+.table-celestial-gradient {
+  --start-color: #c33764;
+  --end-color: #1d2671;
+  color: #eef0f2; }
+
+.table-violet-gradient, .table-winter-gradient, .table-celestial-gradient {
+  background: -webkit-linear-gradient(-70deg, var(--start-color), var(--end-color)); }
