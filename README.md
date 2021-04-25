@@ -1,5 +1,9 @@
 # Fire UI
 
+<div align="center">
+
+![Fire UI Logo](https://avatars0.githubusercontent.com/u/76034545)
+
 [![Github issues](https://img.shields.io/github/issues/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/issues) [![Github forks](https://img.shields.io/github/forks/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/network/members) [![Github stars](https://img.shields.io/github/stars/fire-ui/fire-ui?style=for-the-badge&logo=github)](https://github.com/fire-ui/fire-ui/stargazers) [![MIT](https://img.shields.io/github/license/fire-ui/fire-ui?style=for-the-badge)](https://github.com/fire-ui/fire-ui/blob/master/LICENSE) 
 
 ![npm version](https://img.shields.io/badge/dynamic/json?color=317EFB&logo=npm&style=for-the-badge&label=Version&query=version&url=https%3A%2F%2Funpkg.com%2F%40fire-ui%2Ffire-ui%40latest%2Fpackage.json)
@@ -8,11 +12,12 @@
 
 [![NPM](https://nodei.co/npm/@fire-ui/fire-ui.png?mini=true)](https://npmjs.org/package/@fire-ui/fire-ui)
 
+</div>
 
-![Fire UI Logo](https://avatars0.githubusercontent.com/u/76034545)
 
 ## Table of Contents
 - [Quick start](#quick-start)
+- [Status](#status)
 - [Project Roadmap](https://github.com/fire-ui/fire-ui/projects/)
 - [Documentation Page](https://fire-ui.github.io/)
 - [Bug and feature request](#bug-and-feature-requests)
@@ -29,6 +34,9 @@ There are several quick start options available:
 - Install with npm: `npm i @fire-ui/fire-ui`
 - Use jsdelivr: https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui/
 - Use unpkg: https://unpkg.com/@fire-ui/fire-ui
+
+## Status
+Fire UI is now considered to be a project in maintainence mode, which means there'll no major changes about Fire UI, however, we will keep maintaining this project.
 
 ## Bug and feature requests
 Have a bug or a feature request? [please open an issue](https://github.com/fire-ui/fire-ui/issues) if your problem or idea is not addressed yet. 
