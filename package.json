@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/kimlimjustin/fire-ui#readme",
   "devDependencies": {
-    "minify": "^7.0.0",
+    "minify": "^8.0.3",
     "node-sass": "^6.0.0"
   }
 }
